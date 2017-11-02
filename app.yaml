@@ -9,5 +9,8 @@ handlers:
 - url: /
   script: index.php
 
+- url: /index.php
+  script: index.php
+
 - url: /LIC_primers.php
   script: LIC_primers.php
