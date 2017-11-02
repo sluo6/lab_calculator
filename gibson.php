@@ -4,16 +4,11 @@ if(!isset($_POST['action'])){
     $insert_size = 1000;
     $error = "";
 }
-if($_POST['action']=="Submit"&&(is_null($_POST['vector_conc'])||is_null($_POST['insert_conc']))){
+elseif($_POST['action']=="Submit"&&(empty($_POST['vector_conc'])||empty($_POST['insert_conc']))){
+    $vector_size = $_POST['vector_size'];
+    $insert_size = $_POST['insert_size'];
     $error = "Please enter your vector concentration and insert concentration.";
-}
-function isReady(){
-    if($_POST['action']=="Submit"&&!is_null($_POST['vector_conc'])&&!is_null($_POST['insert_conc']))
-        return TRUE;
-    else return FALSE;
-}
-
-if(isReady()){
+}else{
     $error = "";
     $vector_size = $_POST['vector_size'];
     $insert_size = $_POST['insert_size'];
@@ -29,7 +24,11 @@ if(isReady()){
     $gibson_vol = number_format($vol/2,2);
     $water_vol = number_format($vol-$vector_vol-$insert_vol-$gibson_vol,2);
 }
-
+function isReady(){
+    if($_POST['action']=="Submit"&&!empty($_POST['vector_conc'])&&!empty($_POST['insert_conc']))
+        return TRUE;
+    else return FALSE;
+}
 ?>
 
 <!DOCTYPE html>
