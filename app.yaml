@@ -14,3 +14,6 @@ handlers:
 
 - url: /LIC_primers.php
   script: LIC_primers.php
+
+- url: /.*
+  script: not_found.php

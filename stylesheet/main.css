@@ -55,7 +55,7 @@ a:hover
 {
     overflow: hidden;
     margin: 0em auto;
-    width: 1200px;
+    width: 900px;
 }
 
 /*********************************************************************************/
@@ -312,7 +312,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #logo h1
 {
-    font-size: 2.6em;
+    font-size: 1.5em;
     color: #79C255;
 }
 
@@ -329,7 +329,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 #menu
 {
     position: absolute;
-    top: 4.5em;
+    top: 3.8em;
     right: 0;
 }
 
@@ -347,11 +347,11 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #menu li a, #menu li span
 {
-    padding: 1em 1.5em;
+    padding: 0.8em 2.9em;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 0.6em;
     color: rgba(255,255,255,0.80);
 }
 
@@ -382,12 +382,12 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #banner .title h2
 {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 #banner .title .byline
 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 #banner .button
