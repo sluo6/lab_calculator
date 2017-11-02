@@ -6,18 +6,18 @@ Lab Calculator for Dummies!
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Lab Calculator for Dummies!</title>
+    <title>Gibson</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link href="stylesheet/main.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
 <div id="header-wrapper">
-    <?php include ("header.php") ?>
-    <div id="banner" class="container">
+    <?php include("header.php")?>
+    <div class="container">
         <div class="title">
-            <h2>Oops!</h2>
-            <span class="byline">Something's not right.</span>
+            <h2>Coming Soon!</h2>
+
         </div>
 
     </div>

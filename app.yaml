@@ -9,11 +9,23 @@ handlers:
 - url: /
   script: index.php
 
+- url: /header.php
+  script: header.php
+
 - url: /index.php
   script: index.php
 
+- url: /buffer.php
+  script: buffer.php
+
 - url: /LIC_primers.php
   script: LIC_primers.php
+
+- url: /gibson.php
+  script: gibson.php
+
+- url: /contact.php
+  script: contact.php
 
 - url: /.*
   script: not_found.php

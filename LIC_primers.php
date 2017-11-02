@@ -165,20 +165,7 @@ elseif (isset($_POST['sequence'])&& $_POST['action'] == "PrimerSequence") {
 </head>
 <body>
 <div id="header-wrapper">
-    <div id="header" class="container">
-        <div id="logo">
-            <h1><a href="#">Lab Calculator for DUMMIES!</a></h1>
-        </div>
-        <div id="menu">
-            <ul>
-                <li><a href="index.php" accesskey="1" title="">Homepage</a></li>
-                <li><a href="#" accesskey="2" title="">Buffer</a></li>
-                <li class ="active"><a href="LIC_primers.php" accesskey="3" title="">Primer</a></li>
-                <li><a href="#" accesskey="4" title="">Gibson</a></li>
-                <li><a href="#" accesskey="5" title="">Contact Us</a></li>
-            </ul>
-        </div>
-    </div>
+    <?php include('header.php')?>
 
     <div class = "container">
         <form action="LIC_primers.php" method="post" enctype="multipart/form-data">
