@@ -4,10 +4,8 @@ api_version: 1
 handlers:
 
 - url: /stylesheets
-  static_dir: stylesheets
+  static_dir: /stylesheets
 
-- url: /.*
+- url: /
   script: index.php
 
-- url: /.*
-  script: not_found.php
