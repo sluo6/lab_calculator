@@ -2,7 +2,11 @@ runtime: php55
 api_version: 1
 
 handlers:
-- url: /
+
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /.*
   script: index.php
 
 - url: /.*
