@@ -57,6 +57,11 @@ function tooLarge($primer){
         return TRUE;
     else return FALSE;
 }
+function tooSmall($seq){
+    if(strlen($seq)<100)
+        return TRUE;
+    else return FALSE;
+}
 
 function Acount($seq){
     return substr_count($seq,"A");
@@ -107,85 +112,113 @@ if($_POST['action']=="Reset"){
 }
 
 //Calculate primer sequence according to provided gene sequence and desired Tm.
-if($_POST['action']=="PrimerSequence"){
+elseif (isset($_POST['sequence'])&& $_POST['action'] == "PrimerSequence") {
     $sequence_upper = strtoupper($_POST['sequence']);
     $sequence_revcom = revcomp($sequence_upper);
     $Tm = round($_POST['Tm']);
-
-    $f_complimentary = substr($sequence_upper,0,forwardLength($sequence_upper, $Tm));
-    $r_complimentary = substr($sequence_revcom,3,reverseLength($sequence_revcom, $Tm));
-
-    if(!isset($_POST['vector'])){
-        $error = $error. "Please choose your LIC vector. <br>";
+    if(tooSmall($sequence_upper)){
+        $error = $error . "Your sequence is too short. <br>";
+    }
+    if(!tooSmall($sequence_upper)){
+        $f_complimentary = substr($sequence_upper, 0, forwardLength($sequence_upper, $Tm));
+        $r_complimentary = substr($sequence_revcom, 3, reverseLength($sequence_revcom, $Tm));
     }
 
-    if(!isComplete($sequence_upper)){
-        $error = $error. "Open reading frame is not complete. Please check your sequence. <br>";
+    if (!isset($_POST['vector'])) {
+        $error = $error . "Please choose your LIC vector. <br>";
     }
-    if(!startisATG($sequence_upper)){
-        $error = $error. "NOTE: Start codon is not ATG! <br>";
+
+
+    if (!isComplete($sequence_upper)) {
+        $error = $error . "Open reading frame is not complete. Please check your sequence. <br>";
     }
-    if(!endisStop($sequence_upper)){
-        $error = $error. "ATTENTION! Stop codon is not found! <br>";
+    if (!startisATG($sequence_upper)) {
+        $error = $error . "NOTE: Start codon is not ATG! <br>";
     }
-    if($_POST['vector']=="nhis") {
+    if (!endisStop($sequence_upper)) {
+        $error = $error . "ATTENTION! Stop codon is not found! <br>";
+    }
+    if ($_POST['vector'] == "nhis") {
         $forward = $NF . $f_complimentary;
         $reverse = $NR . $r_complimentary;
     }
-    if($_POST['vector']=="chis"){
+    if ($_POST['vector'] == "chis") {
         $forward = $CF . $f_complimentary;
         $reverse = $CR . $r_complimentary;
     }
-    if(tooLarge($forward) or tooLarge($reverse)){
+    if (tooLarge($forward) or tooLarge($reverse)) {
         $error = $error . "ATTENTION! Primer length more than 60 bps! <br>";
     }
 
 }
-?>
 
+?>
 
 <!DOCTYPE html>
 <html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>LIC Primer Design</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="stylesheet/main.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
-<form action="LIC_primers.php" method="post" enctype="multipart/form-data">
-
-    <div>Please select your LIC vector type: <br><select name = "vector">
-            <option selected disabled>Choose LIC Vector</option>
-            <option value = "nhis"
-                <?php if(isset($_POST['vector']) && $_POST['vector'] == 'nhis') echo ' selected="true"'?>>N-Terminal LIC</option>
-            <option value = "chis"
-                <?php if(isset($_POST['vector']) && $_POST['vector'] == 'chis') echo ' selected="true"'?>>C-Terminal LIC</option>
-        </select>
-    </div>
-    <br>
-    <div>
-
-        <div>Please enter your desired melting temperature Tm (&#8451;):<br>
-            (50 ~ 72)
+<div id="header-wrapper">
+    <div id="header" class="container">
+        <div id="logo">
+            <h1><a href="#">Lab Calculator for DUMMIES!</a></h1>
         </div>
-        <input type = "number" name = "Tm" value = "<?php echo $Tm ?>" min = "50" max = "72"/>
-        <br><br>
-        <div style ="color: #FF0000; font-size = 18px; font-weight: bold;"><?php echo $error?></div>
-        <br>
-        <div>Please enter your gene sequence (from start to stop codon):</div>
-        <textarea type = "text" name = "sequence" style = "width: 800px; height:160px;
-    padding: 0 0 123px 0;" ><?echo $sequence_upper?></textarea>
+        <div id="menu">
+            <ul>
+                <li><a href="index.php" accesskey="1" title="">Homepage</a></li>
+                <li><a href="#" accesskey="2" title="">Buffer</a></li>
+                <li class ="active"><a href="LIC_primers.php" accesskey="3" title="">Primer</a></li>
+                <li><a href="#" accesskey="4" title="">Gibson</a></li>
+                <li><a href="#" accesskey="5" title="">Contact Us</a></li>
+            </ul>
+        </div>
     </div>
-    <div><input type="submit" name = "action" value="PrimerSequence"/>
-        <input type ="submit" name = "action" value = "Reset"</div>
-    <br><br><br>
 
-</form>
-<div>Forward Primer: 5'
-    <input type = "text" name = "forward" value = "<? echo $forward?>" style = "width: 600px;"/>3'
-</div><br>
-<div>Reverse Primer: 5'
-    <input type = "text" name = "reverse" value = "<? echo $reverse?>" style = "width: 600px;"/>3'
+    <div class = "container">
+        <form action="LIC_primers.php" method="post" enctype="multipart/form-data">
+
+            <div>Please select your LIC vector type: <br><select name = "vector">
+                    <option selected disabled>Choose LIC Vector</option>
+                    <option value = "nhis"
+                        <?php if(isset($_POST['vector']) && $_POST['vector'] == 'nhis') echo ' selected="true"'?>>N-Terminal LIC</option>
+                    <option value = "chis"
+                        <?php if(isset($_POST['vector']) && $_POST['vector'] == 'chis') echo ' selected="true"'?>>C-Terminal LIC</option>
+                </select>
+            </div>
+            <br>
+            <div>
+
+                <div>Please enter your desired melting temperature Tm (&#8451;):<br>
+                    (50 ~ 72)
+                </div>
+                <input type = "number" name = "Tm" value = "<?php echo $Tm ?>" min = "50" max = "72"/>
+                <br><br>
+                <div style ="color: #FF0000; font-size = 18px; font-weight: bold;"><?php echo $error?></div>
+                <br>
+                <div>Please enter your gene sequence (from start to stop codon):</div>
+                <textarea type = "text" name = "sequence" style = "width: 800px; height:160px;
+    padding: 0 0 123px 0;" ><? if(isset($_POST['sequence'])){
+                        echo $_POST['sequence'];}?></textarea>
+            </div>
+            <div><input type="submit" name = "action" value="PrimerSequence"/>
+                <input type ="submit" name = "action" value = "Reset"</div>
+            <br><br><br>
+
+        </form>
+        <div>Forward Primer: 5'
+            <input type = "text" name = "forward" value = "<? echo $forward?>" style = "width: 600px;"/>3'
+        </div><br>
+        <div>Reverse Primer: 5'
+            <input type = "text" name = "reverse" value = "<? echo $reverse?>" style = "width: 600px;"/>3'
+        </div>
+        <br><br>
+    </div>
 </div>
-<br><br>
-
-
 </body>
+</html>
