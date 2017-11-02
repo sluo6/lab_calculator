@@ -16,7 +16,9 @@ Lab Calculator for Dummies!
     <?php include("header.php")?>
     <div class="container">
         <div class="title">
-            <h2>Coming Soon!</h2>
+            <h1><a href ="nickel_buffer.php">Buffer for Nickel Column</a></h1>
+            <h1><a href ="#">Buffer for Gel Filtration</a></h1>
+            <h1><a href ="#">Buffer stock for different pH</a></h1>
 
         </div>
 

@@ -176,7 +176,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 .button-alt
 {
-    padding: 1em 2em;
+    padding: 0.5em 1em;
     border-color: rgba(0,0,0,.8);
     color: rgba(0,0,0,.8);
 }
@@ -256,17 +256,31 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 .title
 {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 .title h1
 {
     font-size:1.3em;
 }
 
+.title h1 a
+{
+    color: #898989;
+    text-decoration: none;
+}
+
+.title h1 a:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
 .title h2
 {
     font-size: 2.7em;
 }
+
+
 
 .title .byline
 {
@@ -304,7 +318,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 #header-wrapper
 {
     position: relative;
-    padding: 5em 0em 7em 0em;
+    padding: 1em 0em 6em 0em;
     background: #111111;
     background-size: cover;
 }
@@ -312,7 +326,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 #header
 {
     position: relative;
-    padding: 5em 0em;
+    padding: 4em 0em;
 }
 
 /*********************************************************************************/
@@ -392,7 +406,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #banner
 {
-    padding-top: 10em;
+    padding-top: 5em;
     text-align: center;
 }
 
@@ -530,3 +544,43 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
     color: rgba(0,0,0,.5);
 }
 
+.form_row{
+    float: left;
+    padding:8px 0px 0px 5px ;
+}
+
+.form_row2{
+    float: left;
+    padding:15px 0px 0px 5px ;
+}
+label.label{
+    width:12.0em;
+    float: left;
+    padding:5px 3px 5px 5px;
+    color: #ffffff;
+    font-size: 12px;
+    text-align:right;
+}
+input.input{
+    width:50px;
+    height:18px;
+    float:right;
+    border:1px #9dbbc6 solid;
+    background-color:#fff;
+    color: #000000;
+}
+table {
+    width: 100%;
+}
+
+td {
+    padding: 1px;
+    text-align: left;
+}
+
+th {
+    padding: 1px;
+    text-align: left;
+    font-weight: bold;
+    font-size:1.0em;
+}
