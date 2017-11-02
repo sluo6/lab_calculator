@@ -3,8 +3,8 @@ api_version: 1
 
 handlers:
 
-- url: /stylesheets/
-  static_dir: /stylesheets
+- url: /stylesheet
+  static_dir: stylesheet
 
 - url: /
   script: index.php
