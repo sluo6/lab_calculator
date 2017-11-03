@@ -190,11 +190,8 @@ elseif (isset($_POST['sequence'])&& $_POST['action'] == "PrimerSequence") {
                 <div style ="color: #FF0000; font-size:15px; font-weight: bold;"><?php echo $error?></div>
                 <br>
                 <div>Please enter your gene sequence (from start to stop codon):</div>
-                <textarea type = "text" name = "sequence" style = "width: 800px; height:110px;
-    padding: 0 0 123px 0;" >
-                    <?php if(isset($_POST['sequence'])){
-                        echo $_POST['sequence'];
-                    }?></textarea>
+                <textarea type = "text" name = "sequence" style = "width: 800px;
+    padding: 0 0 123px 0;" ><?php if(isset($_POST['action'])) echo $_POST['sequence'];?></textarea>
             </div>
             <div><input type="submit" name = "action" value="PrimerSequence"/>
                 <input type ="submit" name = "action" value = "Reset"</div>
