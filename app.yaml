@@ -16,10 +16,10 @@ handlers:
   script: index.php
 
 - url: /lib/header.php
-  script: header.php
+  script: /lib/header.php
 
 - url: /lib/header_buffer.php
-  script: header_buffer.php
+  script: /lib/header_buffer.php
 
 - url: /index.php
   script: index.php
