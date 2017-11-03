@@ -6,6 +6,12 @@ handlers:
 - url: /stylesheet
   static_dir: stylesheet
 
+- url: /header.php
+  script: header.php
+
+- url: /header_buffer.php
+  script: header_buffer.php
+
 - url: /
   script: index.php
 
