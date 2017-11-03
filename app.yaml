@@ -6,12 +6,6 @@ handlers:
 - url: /stylesheet
   static_dir: stylesheet
 
-- url: /lib
-  static_dir: lib
-
-- url: /db
-  static_dir: db
-
 - url: /
   script: index.php
 

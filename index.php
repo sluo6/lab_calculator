@@ -13,7 +13,7 @@ Lab Calculator for Dummies!
 </head>
 <body>
 <div id="header-wrapper">
-    <?php include("lib/header.php") ?>
+    <?php include("header.php") ?>
     <div id="banner" class="container">
         <div class="title">
             <h2>Life is Difficult.</h2>

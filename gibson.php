@@ -46,7 +46,7 @@ Lab Calculator for Dummies!
 </head>
 <body>
 <div id="header-wrapper">
-    <?php include("lib/header.php") ?>
+    <?php include("header.php") ?>
     <div class="container">
 
         <form action="gibson.php" method="post" enctype="multipart/form-data">

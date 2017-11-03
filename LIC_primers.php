@@ -165,7 +165,7 @@ elseif (isset($_POST['sequence'])&& $_POST['action'] == "PrimerSequence") {
 </head>
 <body>
 <div id="header-wrapper">
-    <?php include('lib/header.php') ?>
+    <?php include('header.php') ?>
 
     <div class = "container">
         <form action="LIC_primers.php" method="post" enctype="multipart/form-data">

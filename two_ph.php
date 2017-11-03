@@ -40,7 +40,7 @@ Lab Calculator for Dummies!
 </head>
 <body>
 <div id="header-wrapper">
-    <?php include("lib/header_buffer.php") ?>
+    <?php include("header_buffer.php") ?>
     <div class="container">
         <form action="two_ph.php" method="post" enctype="multipart/form-data">
             <fieldset>

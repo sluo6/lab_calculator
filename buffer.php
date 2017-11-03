@@ -13,7 +13,7 @@ Lab Calculator for Dummies!
 </head>
 <body>
 <div id="header-wrapper">
-    <?php include("lib/header.php") ?>
+    <?php include("header.php") ?>
     <div class="container">
         <div class="title">
             <h1><a href ="nickel_buffer.php">Buffer for Nickel Column</a></h1>
