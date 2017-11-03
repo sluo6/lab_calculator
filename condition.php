@@ -2,6 +2,41 @@
     $condition = "";
     $error = "";
 }
+
+define('DB_HOST', "localhost");
+define('DB_PORT', "3307");
+define('DB_USER', "dummies");
+define('DB_PASS', "123");
+define('DB_SCHEMA', "screening_condition");
+
+$db = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_SCHEMA, DB_PORT);
+
+if (mysqli_connect_errno()){
+    $error = "Failed to connect to MySQL." ;
+    exit();
+}
+if(isset($_POST['action'])) {
+
+    $query =
+        "SELECT tube, position, salt, buffer, precipitant " .
+        "FROM {$_POST['block']} " .
+        "WHERE position = '{$_POST['position']}'";
+
+
+    $result = mysqli_query($db, $query);
+
+    if (!is_bool($result) && (mysqli_num_rows($result) > 0)) {
+        $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
+        $condition = strtoupper($_POST['position']). "; ". "Tube ".$row['tube'].";<br>".
+            $row['salt']. ";<br>".
+            $row['buffer'].";<br>".
+            $row['precipitant'].".";
+    } else {
+        $error = "Can not retrieve condition info.";
+    }
+}
+
+
 ?>
 
 <!DOCTYPE html>
@@ -25,18 +60,19 @@ Lab Calculator for Dummies!
             <table style="padding:0px 0px 15px 0px">
                 <tr><td>
                         <div style ="color: #FF0000; font-size: 15px; font-weight: bold;"><?php echo $error?></div><br>
-                        <div style ="color: lawngreen; font-size:18px; font-weight:bold;">Your condition is:<?php echo $condition?></div>
+                        <div style ="color: lawngreen; font-size:18px; font-weight:bold;">Your condition is:<br>
+                            <?php if(isset($_POST['action'])) echo $condition?></div>
                     </td>
                 </tr>
                 <tr>
-                    <td>Please select your condition block</td>
+                    <td>Please select your condition block and well position</td>
                 </tr>
                 <tr>
                     <td>
                         <select name = "block">
                             <option selected disabled>Condition</option>
                             <option value = "crystal_screen" <?php if($_POST['block'] == 'crystal_screen') echo 'selected="true"'?>>Crystal Screen</option>
-                            <option value = "index" <?php if($_POST['block'] == 'index') echo 'selected="true"'?>>Index</option>
+                            <option value = "index_screen" <?php if($_POST['block'] == 'index_screen') echo 'selected="true"'?>>Index</option>
                             <option value = "jcsg" <?php if($_POST['block'] == 'jcsg') echo 'selected="true"'?>>JCSG</option>
                             <option value = "morpheus" <?php if($_POST['block'] == 'morpheus') echo 'selected="true"'?>>Morpheus</option>
                             <option value = "natrixmemb" <?php if($_POST['block'] == 'natrixmemb') echo 'selected="true"'?>>NatrixMemb</option>

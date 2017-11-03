@@ -191,8 +191,10 @@ elseif (isset($_POST['sequence'])&& $_POST['action'] == "PrimerSequence") {
                 <br>
                 <div>Please enter your gene sequence (from start to stop codon):</div>
                 <textarea type = "text" name = "sequence" style = "width: 800px; height:110px;
-    padding: 0 0 123px 0;" ><? if(isset($_POST['sequence'])){
-                        echo $_POST['sequence'];}?></textarea>
+    padding: 0 0 123px 0;" >
+                    <?php if(isset($_POST['sequence'])){
+                        echo $_POST['sequence'];
+                    }?></textarea>
             </div>
             <div><input type="submit" name = "action" value="PrimerSequence"/>
                 <input type ="submit" name = "action" value = "Reset"</div>
@@ -200,10 +202,10 @@ elseif (isset($_POST['sequence'])&& $_POST['action'] == "PrimerSequence") {
 
         </form>
         <div>Forward Primer: 5'
-            <input type = "text" name = "forward" value = "<? echo $forward?>" style = "width: 600px;"/>3'
+            <input type = "text" name = "forward" value = "<?php echo $forward?>" style = "width: 600px;"/>3'
         </div><br>
         <div>Reverse Primer: 5'
-            <input type = "text" name = "reverse" value = "<? echo $reverse?>" style = "width: 600px;"/>3'
+            <input type = "text" name = "reverse" value = "<?php echo $reverse?>" style = "width: 600px;"/>3'
         </div>
         <br><br>
     </div>
