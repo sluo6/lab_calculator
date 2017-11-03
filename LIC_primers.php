@@ -170,7 +170,8 @@ elseif (isset($_POST['sequence'])&& $_POST['action'] == "PrimerSequence") {
     <div class = "container">
         <form action="LIC_primers.php" method="post" enctype="multipart/form-data">
 
-            <div>Please select your LIC vector type: <br><select name = "vector">
+            <div>Please select your LIC vector type: <br>
+                <select name = "vector">
                     <option selected disabled>Choose LIC Vector</option>
                     <option value = "nhis"
                         <?php if(isset($_POST['vector']) && $_POST['vector'] == 'nhis') echo ' selected="true"'?>>N-Terminal LIC</option>
@@ -186,7 +187,7 @@ elseif (isset($_POST['sequence'])&& $_POST['action'] == "PrimerSequence") {
                 </div>
                 <input type = "number" name = "Tm" value = "<?php echo $Tm ?>" min = "50" max = "72"/>
                 <br><br>
-                <div style ="color: #FF0000; font-size = 18px; font-weight: bold;"><?php echo $error?></div>
+                <div style ="color: #FF0000; font-size:15px; font-weight: bold;"><?php echo $error?></div>
                 <br>
                 <div>Please enter your gene sequence (from start to stop codon):</div>
                 <textarea type = "text" name = "sequence" style = "width: 800px; height:110px;

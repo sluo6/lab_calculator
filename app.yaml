@@ -21,6 +21,9 @@ handlers:
 - url: /nickel_buffer.php
   script: nickel_buffer.php
 
+- url: /condition.php
+  script: condition.php
+
 - url: /LIC_primers.php
   script: LIC_primers.php
 

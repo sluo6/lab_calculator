@@ -377,7 +377,7 @@ ul.contact li a.icon-rss:before { background: #F2600B; }
 
 #menu li a, #menu li span
 {
-    padding: 0.8em 2.9em;
+    padding: 0.8em 1.8em;
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase;
@@ -583,4 +583,24 @@ th {
     text-align: left;
     font-weight: bold;
     font-size:1.0em;
+}
+
+table.condition{
+    width:90%;
+    background-color: darkgray;
+    border-collapse: collapse;
+    color: #111111;
+    text-align: center;
+    font-weight: bold;
+
+}
+tr.condition{
+    border: 1px solid black;
+    text-align: center;
+    height:20px;
+}
+td.condition{
+    border: 1px solid black;
+    text-align: center;
+    height:20px;
 }
