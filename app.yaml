@@ -27,6 +27,18 @@ handlers:
 - url: /two_ph.php
   script: two_ph.php
 
+- url: /bradford.php
+  script: bradford.php
+
+- url: /convert_protein.php
+  script: convert_protein.php
+
+- url: /dilution.php
+  script: dilution.php
+
+- url: /gel_buffer.php
+  script: gel_buffer.php
+
 - url: /condition.php
   script: condition.php
 
