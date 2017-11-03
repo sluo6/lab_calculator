@@ -13,12 +13,14 @@ Lab Calculator for Dummies!
 </head>
 <body>
 <div id="header-wrapper">
-    <?php include("header.php")?>
+    <?php include("lib/header.php") ?>
     <div class="container">
         <div class="title">
             <h1><a href ="nickel_buffer.php">Buffer for Nickel Column</a></h1>
             <h1><a href ="#">Buffer for Gel Filtration</a></h1>
-            <h1><a href ="#">Buffer stock for different pH</a></h1>
+            <h1><a href ="two_ph.php">Buffer stock for different pH</a></h1>
+            <h1><br></h1>
+            <h1><a href ="#">Bradford Assay</a></h1>
 
         </div>
 

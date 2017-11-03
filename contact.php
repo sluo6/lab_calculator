@@ -13,7 +13,7 @@ Lab Calculator for Dummies!
 </head>
 <body>
 <div id="header-wrapper">
-    <?php include("header.php")?>
+    <?php include("lib/header.php") ?>
     <div class="container">
         <div class="title">
             <h1>Shangwen Luo, PhD, Working Mom.</h1>

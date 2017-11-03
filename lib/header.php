@@ -9,8 +9,8 @@ $current_filename = urldecode($encodedStr);
         </div>
         <div id="menu">
             <ul>
-                <li <?php if($current_filename=='index.php') echo "class='active'"; ?>><a href="index.php" accesskey="1" title="">Homepage</a></li>
-                <li <?php if($current_filename=='buffer.php') echo "class='active'"; ?>><a href="buffer.php" accesskey="2" title="">Buffer</a></li>
+                <li <?php if($current_filename=='index.php') echo "class='active'"; ?>><a href="index.php" accesskey="1" title="">Home</a></li>
+                <li <?php if($current_filename=='buffer.php') echo "class='active'"; ?>><a href="buffer.php" accesskey="2" title="">Buffer/Conc.</a></li>
                 <li <?php if($current_filename=='condition.php') echo "class='active'"; ?>><a href="condition.php" accesskey="3" title="">Condition</a></li>
                 <li <?php if($current_filename=='LIC_primers.php') echo "class='active'"; ?>><a href="LIC_primers.php" accesskey="4" title="">Primer</a></li>
                 <li <?php if($current_filename=='gibson.php') echo "class='active'"; ?>><a href="gibson.php" accesskey="5" title="">Gibson</a></li>

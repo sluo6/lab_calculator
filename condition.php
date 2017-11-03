@@ -54,7 +54,7 @@ Lab Calculator for Dummies!
 </head>
 <body>
 <div id="header-wrapper">
-    <?php include("header.php")?>
+    <?php include("lib/header.php") ?>
     <div class="container">
         <form action="condition.php" method="post" enctype="multipart/form-data">
             <table style="padding:0px 0px 15px 0px">
