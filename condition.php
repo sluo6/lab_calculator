@@ -8,7 +8,7 @@ define('DB_PORT', "3307");
 define('DB_USER', "dummies");
 define('DB_PASS', "123");
 define('DB_SCHEMA', "screening_condition");
-
+/*
 $db = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_SCHEMA, DB_PORT);
 
 if (mysqli_connect_errno()){
@@ -35,7 +35,7 @@ if(isset($_POST['action'])) {
         $error = "Can not retrieve condition info.";
     }
 }
-
+*/
 
 ?>
 

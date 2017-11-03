@@ -50,7 +50,7 @@ Lab Calculator for Dummies!
     <div class="container">
 
         <form action="gibson.php" method="post" enctype="multipart/form-data">
-
+<fieldset>
             <table style="padding:0px 0px 15px 0px">
                 <tr><td>
                         <div style ="color: #FF0000; font-size = 18px; font-weight: bold;"><?php echo $error?></div>
@@ -148,6 +148,7 @@ Lab Calculator for Dummies!
                     <td></td>
                 </tr>
             </table>
+</fieldset>
         </form>
     </div>
 

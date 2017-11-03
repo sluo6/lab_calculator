@@ -30,6 +30,9 @@ handlers:
 - url: /nickel_buffer.php
   script: nickel_buffer.php
 
+- url: /two_ph.php
+  script: two_ph.php
+
 - url: /condition.php
   script: condition.php
 
