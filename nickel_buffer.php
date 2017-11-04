@@ -20,7 +20,7 @@ if(!isset($_POST['action'])) {
 }
 
 
-if($_POST['action']=='Wash_Buffer') {
+if($_POST['action']=='Wash Buffer') {
     $volume_wash = number_format("{$_POST['volume_wash']}",2);
     $nacl_wash = number_format($volume_wash * 58.4, 2);
     $tris_wash = number_format($volume_wash * 2.42, 2);
@@ -39,7 +39,7 @@ if($_POST['action']=='Wash_Buffer') {
     $glycerol_suspension = 200;
 }
 
-if($_POST['action']=='Elution_Buffer') {
+if($_POST['action']=='Elution Buffer') {
     $immidazole_c_elution = $_POST['immidazole_c_elution'];
     $volume_elution = number_format("{$_POST['volume_elution']}",2);
     $nacl_elution = number_format($volume_elution * 58.4, 2);
@@ -58,7 +58,7 @@ if($_POST['action']=='Elution_Buffer') {
     $glycerol_suspension = 200;
 }
 
-if($_POST['action']=='Suspension_Buffer') {
+if($_POST['action']=='Suspension Buffer') {
     $volume_suspension = number_format("{$_POST['volume_suspension']}",2);
     $nacl_suspension = number_format($volume_suspension * 29.2, 2);
     $tris_suspension = number_format($volume_suspension * 2.42, 2);
@@ -136,7 +136,7 @@ Lab Calculator for Dummies!
                             </div></td>
                     </tr>
                     <tr>
-                        <td><input type = "submit" name = "action" value = "Wash_Buffer"></td>
+                        <td><input type = "submit" name = "action" value = "Wash Buffer"></td>
 
                     </tr>
                 </table>
@@ -180,7 +180,7 @@ Lab Calculator for Dummies!
                             </div></td>
                     </tr>
                     <tr>
-                        <td><input type = "submit" name = "action" value = "Elution_Buffer"></td>
+                        <td><input type = "submit" name = "action" value = "Elution Buffer"></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -220,7 +220,7 @@ Lab Calculator for Dummies!
                             </div></td>
                     </tr>
                     <tr>
-                        <td><input type = "submit" name = "action" value = "Suspension_Buffer"></td>
+                        <td><input type = "submit" name = "action" value = "Suspension Buffer"></td>
                         <td></td>
                         <td></td>
                     </tr>

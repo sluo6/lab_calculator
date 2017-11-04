@@ -8,7 +8,10 @@ elseif($_POST['action']=="Submit"&&(empty($_POST['vector_conc'])||empty($_POST['
     $vector_size = $_POST['vector_size'];
     $insert_size = $_POST['insert_size'];
     $error = "Please enter your vector concentration and insert concentration.";
-}else{
+}elseif($_POST['action']=="I have more than one insert"){
+    header('Location: gibson_multi.php');
+}
+else{
     $error = "";
     $vector_size = $_POST['vector_size'];
     $insert_size = $_POST['insert_size'];
@@ -142,7 +145,8 @@ Lab Calculator for Dummies!
                     <td><br></td>
                 </tr>
                 <tr>
-                    <td><input type = "submit" name = "action" value = "Submit"></td>
+                    <td><input type = "submit" name = "action" value = "Submit">
+                        <input type = "submit" name = "action" value = "I have more than one insert"></td>
                     <td></td>
                     <td></td>
                     <td></td>
