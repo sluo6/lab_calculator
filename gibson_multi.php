@@ -43,7 +43,7 @@ if(!isset($_POST['action'])){
     $one_name=$_POST['one_name'];
     $one_size=$_POST['one_size'];
     $one_conc=$_POST['one_conc'];
-    $one_volume=VECTOR_WEIGHT/$one_conc*$ratio;
+    $one_volume=number_format(VECTOR_WEIGHT/$one_conc*$ratio,2);
 
     $vector_molar=VECTOR_WEIGHT/$one_size;
 
@@ -51,11 +51,34 @@ if(!isset($_POST['action'])){
     $two_size=$_POST['two_size'];
     $two_conc=$_POST['two_conc'];
     if(($two_conc=="")||($two_conc==0)){$two_volume=0;}
-    else{$two_volume=$vector_molar*$two_size/$two_conc*$ratio;}
+    else{$two_volume=number_format($vector_molar*$two_size/$two_conc*$ratio,2);}
 
+    $three_name=$_POST['three_name'];
+    $three_size=$_POST['three_size'];
+    $three_conc=$_POST['three_conc'];
+    if(($three_conc=="")||($three_conc==0)){$three_volume=0;}
+    else{$three_volume=number_format($vector_molar*$three_size/$three_conc*$ratio,2);}
 
-    $water_volume=$total_volume-$one_volume-$two_volume
-        -$three_volume-$four_volume-$five_volume-$six_volume-$gibson_volume;
+    $four_name=$_POST['four_name'];
+    $four_size=$_POST['four_size'];
+    $four_conc=$_POST['four_conc'];
+    if(($four_conc=="")||($four_conc==0)){$four_volume=0;}
+    else{$four_volume=number_format($vector_molar*$four_size/$four_conc*$ratio,2);}
+
+    $five_name=$_POST['five_name'];
+    $five_size=$_POST['five_size'];
+    $five_conc=$_POST['five_conc'];
+    if(($five_conc=="")||($five_conc==0)){$five_volume=0;}
+    else{$five_volume=number_format($vector_molar*$five_size/$five_conc*$ratio,2);}
+
+    $six_name=$_POST['six_name'];
+    $six_size=$_POST['six_size'];
+    $six_conc=$_POST['six_conc'];
+    if(($six_conc=="")||($six_conc==0)){$six_volume=0;}
+    else{$six_volume=number_format($vector_molar*$six_size/$six_conc*$ratio,2);}
+
+    $water_volume=number_format($total_volume-$one_volume-$two_volume
+        -$three_volume-$four_volume-$five_volume-$six_volume-$gibson_volume,2);
 
 }elseif($_POST['action']=="Reset"){
     $one_name="Vector";

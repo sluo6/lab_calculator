@@ -34,36 +34,36 @@ if(!isset($_POST['action'])){
     $salt_stock=$_POST['salt_stock'];
     $salt_desired=$_POST['salt_desired'];
     if(($salt_desired=="")||($salt_desired==0)){$salt_volume=0;}
-    else{$salt_volume=$total_volume*$salt_desired/$salt_stock*1000;}
+    else{$salt_volume=number_format($total_volume*$salt_desired/$salt_stock*1000,0);}
 
     $buffer_name=$_POST['buffer_name'];
     $buffer_stock=$_POST['buffer_stock'];
     $buffer_desired=$_POST['buffer_desired'];
     if(($buffer_desired=="")||($buffer_desired==0)){$buffer_volume=0;}
-    else{$buffer_volume=$total_volume*$buffer_desired/$buffer_stock*1000;}
+    else{$buffer_volume=number_format($total_volume*$buffer_desired/$buffer_stock*1000,0);}
 
     $precipitant_name=$_POST['precipitant_name'];
     $precipitant_stock=$_POST['precipitant_stock'];
     $precipitant_desired=$_POST['precipitant_desired'];
     if(($precipitant_desired=="")||($precipitant_desired==0)){$precipitant_volume=0;}
-    else{$precipitant_volume=$total_volume*$precipitant_desired/$precipitant_stock*1000;}
+    else{$precipitant_volume=number_format($total_volume*$precipitant_desired/$precipitant_stock*1000,0);}
 
     $additive_name=$_POST['additive_name'];
     $additive_stock=$_POST['additive_stock'];
     $additive_desired=$_POST['additive_desired'];
     if(($additive_desired=="")||($additive_desired==0)){$additive_volume=0;}
-    else{$additive_volume=$total_volume*$additive_desired/$additive_stock*1000;}
+    else{$additive_volume=number_format($total_volume*$additive_desired/$additive_stock*1000,0);}
 
     $additive2_name=$_POST['additive2_name'];
     $additive2_stock=$_POST['additive2_stock'];
     $additive2_desired=$_POST['additive2_desired'];
     if(($additive2_desired=="")||($additive2_desired==0)){$additive2_volume=0;}
-    else{$additive2_volume=$total_volume*$additive2_desired/$additive2_stock*1000;}
+    else{$additive2_volume=number_format($total_volume*$additive2_desired/$additive2_stock*1000,0);}
 
     $total_volume=number_format($_POST['total_volume'],3);
 
-    $water_volume=$total_volume*1000-$salt_volume-$buffer_volume
-        -$precipitant_volume-$additive_volume-$additive2_volume;
+    $water_volume=number_format($total_volume*1000-$salt_volume-$buffer_volume
+        -$precipitant_volume-$additive_volume-$additive2_volume,0);
 
 }elseif($_POST['action']=="Reset"){
     $salt_name="";
