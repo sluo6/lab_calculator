@@ -48,6 +48,9 @@ handlers:
 - url: /gibson.php
   script: gibson.php
 
+- url: /gibson_multi.php
+  script: gibson_multi.php
+
 - url: /contact.php
   script: contact.php
 
