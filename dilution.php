@@ -86,6 +86,11 @@ if(!isset($_POST['action'])){
     $additive_desired="";
     $additive_volume="";
 
+    $additive2_name="";
+    $additive2_stock="";
+    $additive2_desired="";
+    $additive2_volume="";
+
     $water_volume="";
     $total_volume="";
 }
