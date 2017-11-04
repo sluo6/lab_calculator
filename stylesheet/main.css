@@ -569,6 +569,27 @@ input.input{
     background-color:#fff;
     color: #000000;
 }
+
+input.dilution{
+    width:120px;
+    height:18px;
+    float: inherit;
+    border: 1px #9dbbc6 solid;
+    background-color:#fff;
+    color: #000000;
+    padding: 0 0 0 4px;
+}
+input.dilution2{
+    width:60px;
+    height:18px;
+    float: inherit;
+    border: 1px #9dbbc6 solid;
+    background-color:#fff;
+    color: #000000;
+    padding: 0 0 0 4px;
+}
+
+
 table {
     width: 100%;
 }
@@ -592,7 +613,6 @@ table.condition{
     color: #111111;
     text-align: center;
     font-weight: bold;
-
 }
 tr.condition{
     border: 1px solid black;
@@ -603,4 +623,32 @@ td.condition{
     border: 1px solid black;
     text-align: center;
     height:20px;
+}
+
+table.dilution{
+    width:80%;
+    background-color: darkgray;
+    border-collapse: collapse;
+    color: #111111;
+    text-align: center;
+    font-weight: bold;
+    font-size:15px;
+}
+tr.dilution{
+
+    text-align: center;
+    height:30px;
+}
+tr.dilution:hover {background-color: #f5f5f5}
+
+td.dilution{
+
+    text-align: center;
+    height:20px;
+}
+td.dilution2{
+
+    text-align: right;
+    height:20px;
+    padding:0 10px 0 0;
 }
