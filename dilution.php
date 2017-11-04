@@ -20,6 +20,11 @@ if(!isset($_POST['action'])){
     $additive_desired="";
     $additive_volume="";
 
+    $additive2_name="";
+    $additive2_stock="";
+    $additive2_desired="";
+    $additive2_volume="";
+
     $water_volume="";
     $total_volume="";
 }elseif($_POST['action']=="Submit"){
@@ -49,9 +54,16 @@ if(!isset($_POST['action'])){
     if(($additive_desired=="")||($additive_desired==0)){$additive_volume=0;}
     else{$additive_volume=$total_volume*$additive_desired/$additive_stock*1000;}
 
+    $additive2_name=$_POST['additive2_name'];
+    $additive2_stock=$_POST['additive2_stock'];
+    $additive2_desired=$_POST['additive2_desired'];
+    if(($additive2_desired=="")||($additive2_desired==0)){$additive2_volume=0;}
+    else{$additive2_volume=$total_volume*$additive2_desired/$additive2_stock*1000;}
+
     $total_volume=number_format($_POST['total_volume'],3);
 
-    $water_volume=$total_volume*1000-$salt_volume-$buffer_volume-$precipitant_volume-$additive_volume;
+    $water_volume=$total_volume*1000-$salt_volume-$buffer_volume
+        -$precipitant_volume-$additive_volume-$additive2_volume;
 
 }elseif($_POST['action']=="Reset"){
     $salt_name="";
@@ -145,6 +157,16 @@ Lab Calculator for Dummies!
                         <td class="dilution"><input type="number" name="additive_desired" step="0.001"
                                                     value = "<?php echo $additive_desired;?>" min="0" class="dilution2"/>%</td>
                         <td class="dilution"><?php echo $additive_volume;?></td>
+                    </tr>
+                    <tr class="dilution">
+                        <td class="dilution2">Additive2 (Optional)</td>
+                        <td class="dilution"><input type="text" name="additive2_name"
+                                                    value = "<?php echo $additive2_name;?>" class="dilution"/></td>
+                        <td class="dilution"><input type="number" name="additive2_stock" step="0.001"
+                                                    value = "<?php echo $additive2_stock;?>" min="0" class="dilution2"/>%</td>
+                        <td class="dilution"><input type="number" name="additive2_desired" step="0.001"
+                                                    value = "<?php echo $additive2_desired;?>" min="0" class="dilution2"/>%</td>
+                        <td class="dilution"><?php echo $additive2_volume;?></td>
                     </tr>
                     <tr class="dilution" style="border-bottom: 3px solid black;">
                         <td class="dilution2">Water</td>
