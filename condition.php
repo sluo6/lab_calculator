@@ -37,7 +37,7 @@ if(isset($_POST['action'])) {
 }
 */
 if(($_POST['action'])=="Submit") {
-    if(!isset($_POST['position'])){$error="Please choose your well position!";}
+    if(!isset($_POST['position'])||!isset($_POST['block'])){$error="Please choose your block and well position!";}
     else {
         $filename = "{$_POST['block']}" . ".xml";
         $xml = simplexml_load_file("$filename") or die("Error: Cannot retrieve condition info.");
