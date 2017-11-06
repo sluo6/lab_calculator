@@ -10,10 +10,10 @@ handlers:
   static_files: favicon.ico
   upload: favicon.ico
 
-- url: /index_screen.xml
+- url: /(.*\.xml)
   mime_type: application/xml
-  static_files: index_screen.xml
-  upload: index_screen.xml)
+  static_files: db/\1
+  upload: db/(.*\.xml)
 
 - url: /header.php
   script: header.php
