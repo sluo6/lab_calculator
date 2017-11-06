@@ -39,7 +39,7 @@ if(isset($_POST['action'])) {
 if(($_POST['action'])=="Submit") {
     if(!isset($_POST['position'])){$error="Please choose your well position!";}
     else {
-        $filename = "db/" . "{$_POST['block']}" . ".xml";
+        $filename = "{$_POST['block']}" . ".xml";
         $xml = simplexml_load_file("$filename") or die("Error: Cannot retrieve condition info.");
         foreach ($xml->children() as $condition) {
             if ($condition->position != $_POST['position']) {
