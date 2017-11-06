@@ -13,6 +13,7 @@ handlers:
 - url: /index_screen.xml
   mime_type: application/xml
   static_files: index_screen.xml
+  upload: index_screen.xml)
 
 - url: /header.php
   script: header.php
