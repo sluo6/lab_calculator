@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<screen-condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<condition>
+		<tube>1</tube>
+		<position>a1</position>
+		<salt>1.8 M Sodium acetate trihydrate pH 7.0</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>2</tube>
+		<position>a2</position>
+		<salt>2.8 M Sodium acetate trihydrate pH 7.0</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>3</tube>
+		<position>a3</position>
+		<salt>1.5 M Ammonium chloride</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>4</tube>
+		<position>a4</position>
+		<salt>1.5 M Ammonium chloride</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>5</tube>
+		<position>a5</position>
+		<salt>1.5 M Ammonium chloride</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>6</tube>
+		<position>a6</position>
+		<salt>3.5 M Ammonium chloride</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>7</tube>
+		<position>a7</position>
+		<salt>3.5 M Ammonium chloride</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>8</tube>
+		<position>a8</position>
+		<salt>3.5 M Ammonium chloride</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>9</tube>
+		<position>a9</position>
+		<salt>2.2 M Sodium chloride</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>10</tube>
+		<position>a10</position>
+		<salt>2.2 M Sodium chloride</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>11</tube>
+		<position>a11</position>
+		<salt>2.2 M Sodium chloride</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>12</tube>
+		<position>a12</position>
+		<salt>3.2 M Sodium chloride</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>13</tube>
+		<position>b1</position>
+		<salt>3.2 M Sodium chloride</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>14</tube>
+		<position>b2</position>
+		<salt>3.2 M Sodium chloride</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>15</tube>
+		<position>b3</position>
+		<salt>1.0 M Ammonium citrate dibasic</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>16</tube>
+		<position>b4</position>
+		<salt>1.8 M Ammonium citrate dibasic</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>17</tube>
+		<position>b5</position>
+		<salt>1.0 M Ammonium citrate tribasic pH 7.0</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>18</tube>
+		<position>b6</position>
+		<salt>2.0 M Ammonium citrate tribasic pH 7.0</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>19</tube>
+		<position>b7</position>
+		<salt>0.7 M Sodium citrate tribasic dihydrate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>20</tube>
+		<position>b8</position>
+		<salt>0.7 M Sodium citrate tribasic dihydrate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>21</tube>
+		<position>b9</position>
+		<salt>1.2 M Sodium citrate tribasic dihydrate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>22</tube>
+		<position>b10</position>
+		<salt>1.2 M Sodium citrate tribasic dihydrate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>23</tube>
+		<position>b11</position>
+		<salt>0.4 M Magnesium formate dihydrate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>24</tube>
+		<position>b12</position>
+		<salt>0.4 M Magnesium formate dihydrate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>25</tube>
+		<position>c1</position>
+		<salt>0.4 M Magnesium formate dihydrate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>26</tube>
+		<position>c2</position>
+		<salt>0.7 M Magnesium formate dihydrate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>27</tube>
+		<position>c3</position>
+		<salt>2.0 M Sodium formate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>28</tube>
+		<position>c4</position>
+		<salt>2.0 M Sodium formate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>29</tube>
+		<position>c5</position>
+		<salt>2.0 M Sodium formate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>30</tube>
+		<position>c6</position>
+		<salt>3.5 M Sodium formate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>31</tube>
+		<position>c7</position>
+		<salt>3.5 M Sodium formate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>32</tube>
+		<position>c8</position>
+		<salt>3.5 M Sodium formate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>33</tube>
+		<position>c9</position>
+		<salt>1.2 M DL-Malic acid pH 7.0</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>34</tube>
+		<position>c10</position>
+		<salt>2.2 M DL-Malic acid pH 7.0</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>35</tube>
+		<position>c11</position>
+		<salt>1.4 M Sodium malonate pH 7.0</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>36</tube>
+		<position>c12</position>
+		<salt>2.4 M Sodium malonate pH 7.0</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>37</tube>
+		<position>d1</position>
+		<salt>2.5 M Ammonium nitrate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>38</tube>
+		<position>d2</position>
+		<salt>2.5 M Ammonium nitrate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>39</tube>
+		<position>d3</position>
+		<salt>2.5 M Ammonium nitrate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>40</tube>
+		<position>d4</position>
+		<salt>6.0 M Ammonium nitrate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>41</tube>
+		<position>d5</position>
+		<salt>6.0 M Ammonium nitrate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>42</tube>
+		<position>d6</position>
+		<salt>6.0 M Ammonium nitrate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>43</tube>
+		<position>d7</position>
+		<salt>1.5 M Sodium nitrate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>44</tube>
+		<position>d8</position>
+		<salt>1.5 M Sodium nitrate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>45</tube>
+		<position>d9</position>
+		<salt>1.5 M Sodium nitrate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>46</tube>
+		<position>d10</position>
+		<salt>4.0 M Sodium nitrate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>47</tube>
+		<position>d11</position>
+		<salt>4.0 M Sodium nitrate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>48</tube>
+		<position>d12</position>
+		<salt>4.0 M Sodium nitrate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>49</tube>
+		<position>e1</position>
+		<salt>1.0 M Ammonium phosphate monobasic</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>50</tube>
+		<position>e2</position>
+		<salt>1.8 M Ammonium phosphate monobasic</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>51</tube>
+		<position>e3</position>
+		<salt>1.5 M Ammonium phosphate dibasic</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>52</tube>
+		<position>e4</position>
+		<salt>2.4 M Ammonium phosphate dibasic</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>53</tube>
+		<position>e5</position>
+		<salt>1.0 M Sodium phosphate monobasic monohydrate, Potassium phosphate dibasic / pH 5.0</salt>
+		<buffer>None</buffer>
+	</condition>
+	<condition>
+		<tube>54</tube>
+		<position>e6</position>
+		<salt>1.0 M Sodium phosphate monobasic monohydrate, Potassium phosphate dibasic / pH 6.9</salt>
+		<buffer>None</buffer>
+	</condition>
+	<condition>
+		<tube>55</tube>
+		<position>e7</position>
+		<salt>1.0 M Sodium phosphate monobasic monohydrate, Potassium phosphate dibasic / pH 8.2</salt>
+		<buffer>None</buffer>
+	</condition>
+	<condition>
+		<tube>56</tube>
+		<position>e8</position>
+		<salt>1.8 M Sodium phosphate monobasic monohydrate, Potassium phosphate dibasic / pH 5.0</salt>
+		<buffer>None</buffer>
+	</condition>
+	<condition>
+		<tube>57</tube>
+		<position>e9</position>
+		<salt>1.8 M Sodium phosphate monobasic monohydrate, Potassium phosphate dibasic / pH 6.9</salt>
+		<buffer>None</buffer>
+	</condition>
+	<condition>
+		<tube>58</tube>
+		<position>e10</position>
+		<salt>1.8 M Sodium phosphate monobasic monohydrate, Potassium phosphate dibasic / pH 8.2</salt>
+		<buffer>None</buffer>
+	</condition>
+	<condition>
+		<tube>59</tube>
+		<position>e11</position>
+		<salt>0.5 M Succinic acid pH 7.0</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>60</tube>
+		<position>e12</position>
+		<salt>1.0 M Succinic acid pH 7.0</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>61</tube>
+		<position>f1</position>
+		<salt>1.5 M Ammonium sulfate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>62</tube>
+		<position>f2</position>
+		<salt>1.5 M Ammonium sulfate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>63</tube>
+		<position>f3</position>
+		<salt>1.5 M Ammonium sulfate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>64</tube>
+		<position>f4</position>
+		<salt>2.5 M Ammonium sulfate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>65</tube>
+		<position>f5</position>
+		<salt>2.5 M Ammonium sulfate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>66</tube>
+		<position>f6</position>
+		<salt>2.5 M Ammonium sulfate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>67</tube>
+		<position>f7</position>
+		<salt>0.8 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>68</tube>
+		<position>f8</position>
+		<salt>0.8 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>69</tube>
+		<position>f9</position>
+		<salt>0.8 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>70</tube>
+		<position>f10</position>
+		<salt>1.5 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>71</tube>
+		<position>f11</position>
+		<salt>1.5 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>72</tube>
+		<position>f12</position>
+		<salt>1.5 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>73</tube>
+		<position>g1</position>
+		<salt>1.0 M Magnesium sulfate hydrate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>74</tube>
+		<position>g2</position>
+		<salt>1.0 M Magnesium sulfate hydrate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>75</tube>
+		<position>g3</position>
+		<salt>1.0 M Magnesium sulfate hydrate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>76</tube>
+		<position>g4</position>
+		<salt>1.8 M Magnesium sulfate hydrate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>77</tube>
+		<position>g5</position>
+		<salt>1.8 M Magnesium sulfate hydrate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>78</tube>
+		<position>g6</position>
+		<salt>1.8 M Magnesium sulfate hydrate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>79</tube>
+		<position>g7</position>
+		<salt>0.7 M Ammonium tartrate dibasic</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>80</tube>
+		<position>g8</position>
+		<salt>0.7 M Ammonium tartrate dibasic</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>81</tube>
+		<position>g9</position>
+		<salt>0.7 M Ammonium tartrate dibasic</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>82</tube>
+		<position>g10</position>
+		<salt>1.0 M Ammonium tartrate dibasic</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>83</tube>
+		<position>g11</position>
+		<salt>1.3 M Ammonium tartrate dibasic</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>84</tube>
+		<position>g12</position>
+		<salt>1.4 M Ammonium tartrate dibasic</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>85</tube>
+		<position>h1</position>
+		<salt>0.6 M Potassium sodium tartrate tetrahydrate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>86</tube>
+		<position>h2</position>
+		<salt>1.2 M Potassium sodium tartrate tetrahydrate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>87</tube>
+		<position>h3</position>
+		<salt>0.6 M Potassium sodium tartrate tetrahydrate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>88</tube>
+		<position>h4</position>
+		<salt>1.2 M Potassium sodium tartrate tetrahydrate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>89</tube>
+		<position>h5</position>
+		<salt>0.5 M Potassium thiocyanate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>90</tube>
+		<position>h6</position>
+		<salt>0.5 M Potassium thiocyanate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>91</tube>
+		<position>h7</position>
+		<salt>0.5 M Potassium thiocyanate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>92</tube>
+		<position>h8</position>
+		<salt>4.0 M Ammonium acetate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+	</condition>
+	<condition>
+		<tube>93</tube>
+		<position>h9</position>
+		<salt>4.0 M Ammonium acetate</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>94</tube>
+		<position>h10</position>
+		<salt>4.0 M Ammonium acetate</salt>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>95</tube>
+		<position>h11</position>
+		<salt>35% v/v Tacsimate pH 7.0</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+	<condition>
+		<tube>96</tube>
+		<position>h12</position>
+		<salt>60% v/v Tacsimate pH 7.0</salt>
+		<buffer>0.1 M BIS-TRIS propane pH 7.0</buffer>
+	</condition>
+</screen-condition>

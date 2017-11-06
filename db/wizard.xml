@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<screen-condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<condition>
+		<tube>wiz3-1</tube>
+		<position>a1</position>
+		<salt>200 mM Ammonium citrate dibasic</salt>
+		<precipitant>20% (w/v) PEG 3350</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-2</tube>
+		<position>a2</position>
+		<salt>20 mM Calcium chloride</salt>
+		<buffer>100 mM Sodium acetate/ Hydrochloric acid pH 4.6</buffer>
+		<precipitant>30% (v/v) MPD</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-3</tube>
+		<position>a3</position>
+		<salt>200 mM Magnesium formate</salt>
+		<precipitant>20% (w/v) PEG 3350</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-4</tube>
+		<position>a4</position>
+		<salt>200 mM Ammonium formate</salt>
+		<precipitant>20% (w/v) PEG 3350</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-5</tube>
+		<position>a5</position>
+		<salt>200 mM Ammonium chloride</salt>
+		<precipitant>20% (w/v) PEG 3350</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-6</tube>
+		<position>a6</position>
+		<salt>200 mM Potassium formate</salt>
+		<precipitant>20% (w/v) PEG 3350</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-7</tube>
+		<position>a7</position>
+		<salt>200 mM Ammonium phosphate monobasic</salt>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.5</buffer>
+		<precipitant>50% (v/v) MPD</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-8</tube>
+		<position>a8</position>
+		<salt>200 mM Potassium nitrate</salt>
+		<precipitant>20% (w/v) PEG 3350</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-9</tube>
+		<position>a9</position>
+		<buffer>100 mM Citric acid/ Sodium hydroxide pH 4.0</buffer>
+		<precipitant>800 mM Ammonium sulfate</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-10</tube>
+		<position>a10</position>
+		<salt>200 mM Sodium thiocyanate</salt>
+		<precipitant>20% (w/v) PEG 3350</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-11</tube>
+		<position>a11</position>
+		<buffer>100 mM Bicine/ Sodium hydroxide pH 9.0</buffer>
+		<precipitant>20% (w/v) PEG 6000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-12</tube>
+		<position>a12</position>
+		<salt>8% (v/v) Ethylene glycol</salt>
+		<buffer>100 mM HEPES/ Sodium hydroxide pH 7.5</buffer>
+		<precipitant>10% (w/v) PEG 8000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-13</tube>
+		<position>b1</position>
+		<buffer>100 mM Sodium acetate/ Hydrochloric acid pH 4.6</buffer>
+		<precipitant>8% (w/v) PEG 4000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-14</tube>
+		<position>b2</position>
+		<buffer>100 mM Citric acid/ Sodium hydroxide pH 5.0</buffer>
+		<precipitant>20% (w/v) PEG 6000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-15</tube>
+		<position>b3</position>
+		<precipitant>1600 mM Sodium citrate tribasic</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-16</tube>
+		<position>b4</position>
+		<salt>200 mM Potassium citrate tribasic</salt>
+		<precipitant>20% (w/v) PEG 3350</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-17</tube>
+		<position>b5</position>
+		<salt>10% (v/v) 2-Propanol</salt>
+		<buffer>100 mM Sodium citrate/ Citric acid pH 5.5</buffer>
+		<precipitant>20% (w/v) PEG 4000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-18</tube>
+		<position>b6</position>
+		<salt>1000 mM Lithium chloride</salt>
+		<buffer>100 mM Citric acid/ Sodium hydroxide pH 4.0</buffer>
+		<precipitant>20% (w/v) PEG 6000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-19</tube>
+		<position>b7</position>
+		<salt>200 mM Ammonium nitrate</salt>
+		<precipitant>20% (w/v) PEG 3350</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-20</tube>
+		<position>b8</position>
+		<buffer>100 mM HEPES/ Sodium hydroxide pH 7.0</buffer>
+		<precipitant>10% (w/v) PEG 6000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-21</tube>
+		<position>b9</position>
+		<salt>800 mM Potassium phosphate dibasic</salt>
+		<buffer>100 mM HEPES/ Sodium hydroxide pH 7.5</buffer>
+		<precipitant>800 mM Sodium phosphate monobasic</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-22</tube>
+		<position>b10</position>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.5</buffer>
+		<precipitant>20% (v/v) Reagent alcohol</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-23</tube>
+		<position>b11</position>
+		<salt>2% (v/v) Dioxane</salt>
+		<buffer>100 mM Bicine/ Sodium hydroxide pH 9.0</buffer>
+		<precipitant>10% (w/v) PEG 20,000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-24</tube>
+		<position>b12</position>
+		<buffer>100 mM Sodium acetate/ Hydrochloric acid pH 4.6</buffer>
+		<precipitant>2000 mM Ammonium sulfate</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-25</tube>
+		<position>c1</position>
+		<salt>10% (w/v) PEG 8000</salt>
+		<precipitant>10% (w/v) PEG 1000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-26</tube>
+		<position>c2</position>
+		<salt>20% (v/v) Glycerol</salt>
+		<precipitant>24% (w/v) PEG 1500</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-27</tube>
+		<position>c3</position>
+		<salt>200 mM Magnesium chloride</salt>
+		<buffer>100 mM HEPES/ Sodium hydroxide pH 7.5</buffer>
+		<precipitant>30% (v/v) PEG 400</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-28</tube>
+		<position>c4</position>
+		<buffer>100 mM HEPES/ Sodium hydroxide pH 7.5</buffer>
+		<precipitant>70% (v/v) MPD</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-29</tube>
+		<position>c5</position>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.0</buffer>
+		<precipitant>40% (v/v) MPD</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-30</tube>
+		<position>c6</position>
+		<salt>170 mM Ammonium sulfate</salt>
+		<precipitant>25.5% (w/v) PEG 4000, 15% (v/v) Glycerol</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-31</tube>
+		<position>c7</position>
+		<salt>140 mM Calcium chloride</salt>
+		<buffer>70 mM Sodium acetate/ Hydrochloric acid pH 4.6</buffer>
+		<precipitant>14% (v/v) 2-Propanol, 30% (v/v) Glycerol</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-32</tube>
+		<position>c8</position>
+		<salt>40 mM Potassium phosphate monobasic</salt>
+		<precipitant>16% (w/v) PEG 8000, 20% (v/v) Glycerol</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-33</tube>
+		<position>c9</position>
+		<buffer>100 mM MES/ Sodium hydroxide pH 6.5</buffer>
+		<precipitant>1600 mM Magnesium sulfate</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-34</tube>
+		<position>c10</position>
+		<buffer>100 mM Bicine/ Sodium hydroxide pH 9.0</buffer>
+		<precipitant>10% (w/v) PEG 6000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-35</tube>
+		<position>c11</position>
+		<salt>160 mM Calcium acetate</salt>
+		<buffer>80 mM Sodium cacodylate/ Hydrochloric acid pH 6.5</buffer>
+		<precipitant>14.4% (w/v) PEG 8000, 20% (v/v) Glycerol</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-36</tube>
+		<position>c12</position>
+		<salt>50 mM Cesium chloride</salt>
+		<buffer>100 mM MES/ Sodium hydroxide pH 6.5</buffer>
+		<precipitant>30% (v/v) Jeffamine M-600 pH 7.0</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-37</tube>
+		<position>d1</position>
+		<buffer>100 mM Citric acid/ Sodium hydroxide pH 5.0</buffer>
+		<precipitant>3200 mM Ammonium sulfate</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-38</tube>
+		<position>d2</position>
+		<salt>2% (v/v) Dioxane</salt>
+		<buffer>100 mM Sodium citrate/ Citric acid pH 5.5</buffer>
+		<precipitant>15% (w/v) PEG 10,000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-39</tube>
+		<position>d3</position>
+		<buffer>100 mM HEPES/ Sodium hydroxide pH 7.5</buffer>
+		<precipitant>20% (v/v) Jeffamine M-600</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-40</tube>
+		<position>d4</position>
+		<buffer>100 mM Bicine/ Sodium hydroxide pH 9.0</buffer>
+		<precipitant>10% (v/v) MPD</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-41</tube>
+		<position>d5</position>
+		<salt>200 mM Calcium chloride</salt>
+		<buffer>100 mM HEPES/ Sodium hydroxide pH 7.5</buffer>
+		<precipitant>28% (v/v) PEG 400</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-42</tube>
+		<position>d6</position>
+		<salt>200 mM Lithium sulfate</salt>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.5</buffer>
+		<precipitant>30% (w/v) PEG 4000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-43</tube>
+		<position>d7</position>
+		<salt>200 mM Ammonium sulfate</salt>
+		<precipitant>30% (w/v) PEG 8000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-44</tube>
+		<position>d8</position>
+		<salt>200 mM Lithium sulfate</salt>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.0</buffer>
+		<precipitant>30% (w/v) PEG 5000 MME</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-45</tube>
+		<position>d9</position>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.5</buffer>
+		<precipitant>1500 mM Ammonium sulfate, 12% (v/v) Glycerol</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-46</tube>
+		<position>d10</position>
+		<salt>200 mM Ammonium chloride</salt>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.5</buffer>
+		<precipitant>50% (v/v) MPD</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-47</tube>
+		<position>d11</position>
+		<salt>200 mM Ammonium sulfate</salt>
+		<buffer>100 mM MES/ Sodium hydroxide pH 6.5</buffer>
+		<precipitant>30% (w/v) PEG 5000 MME</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz3-48</tube>
+		<position>d12</position>
+		<buffer>100 mM HEPES/ Sodium hydroxide pH 7.5</buffer>
+		<precipitant>20% (w/v) PEG 10,000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-1</tube>
+		<position>e1</position>
+		<salt>40 mM Potassium phosphate dibasic</salt>
+		<precipitant>16% (w/v) PEG 8000, 20% (v/v) Glycerol</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-2</tube>
+		<position>e2</position>
+		<salt>100 mM Sodium chloride</salt>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.0</buffer>
+		<precipitant>5% (v/v) MPD, 15% (v/v) Reagent alcohol</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-3</tube>
+		<position>e3</position>
+		<buffer>100 mM Sodium phosphate dibasic / Citric acid pH 4.2</buffer>
+		<precipitant>5% (w/v) PEG 1000, 40% (v/v) Reagent alcohol</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-4</tube>
+		<position>e4</position>
+		<salt>200 mM Ammonium sulfate</salt>
+		<buffer>100 mM Bis Tris/ Hydrochloric acid pH 5.5</buffer>
+	</condition>
+	<condition>
+		<tube>wiz4-5</tube>
+		<position>e5</position>
+		<salt>2000 mM Ammonium sulfate</salt>
+		<buffer>100 mM Sodium acetate/ Acetic acid pH 5.5</buffer>
+		<precipitant>2% (v/v) PEG 400</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-6</tube>
+		<position>e6</position>
+		<salt>800 mM Ammonium sulfate</salt>
+		<buffer>100 mM Sodium citrate/ Citric acid pH 4.0</buffer>
+	</condition>
+	<condition>
+		<tube>wiz4-7</tube>
+		<position>e7</position>
+		<salt>100 mM Magnesium sulfate</salt>
+		<buffer>100 mM Sodium acetate/ Acetic acid pH 4.5</buffer>
+		<precipitant>2000 mM Lithium sulfate, 5% (v/v) 2-Propanol</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-8</tube>
+		<position>e8</position>
+		<salt>2000 mM Lithium sulfate</salt>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.5</buffer>
+		<precipitant>2% (v/v) PEG 400</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-9</tube>
+		<position>e9</position>
+		<salt>2000 mM Lithium sulfate</salt>
+		<buffer>100 mM Sodium acetate/ Acetic acid pH 5.5</buffer>
+		<precipitant>5% (v/v) PEG 400, 100 mM Magnesium sulfate</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-10</tube>
+		<position>e10</position>
+		<salt>200 mM Magnesium chloride</salt>
+		<buffer>100 mM Sodium cacodylate/ Hydrochloric acid pH 6.5</buffer>
+		<precipitant>50% (v/v) PEG 200</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-11</tube>
+		<position>e11</position>
+		<salt>200 mM Calcium acetate</salt>
+		<buffer>100 mM Sodium cacodylate/ Hydrochloric acid pH 6.5</buffer>
+		<precipitant>40% (v/v) PEG 300</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-12</tube>
+		<position>e12</position>
+		<buffer>100 mM HEPES/ Sodium hydroxide pH 7.0</buffer>
+		<precipitant>30% (v/v) Jeffamine M-600 pH 7.0</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-13</tube>
+		<position>f1</position>
+		<precipitant>800 mM Succinic acid pH 7.0</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-14</tube>
+		<position>f2</position>
+		<salt>200 mM Lithium sulfate</salt>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.5</buffer>
+		<precipitant>40% (v/v) PEG 400</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-15</tube>
+		<position>f3</position>
+		<salt>200 mM Lithium sulfate</salt>
+		<buffer>100 mM Sodium acetate/ Acetic acid pH 4.5</buffer>
+		<precipitant>50% (v/v) PEG 400</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-16</tube>
+		<position>f4</position>
+		<buffer>100 mM MES/ Sodium hydroxide pH 6.5</buffer>
+		<precipitant>15% (v/v) PEG 550 MME</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-17</tube>
+		<position>f5</position>
+		<buffer>100 mM SPG buffer pH 5.5</buffer>
+		<precipitant>25% (w/v) PEG 1500</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-18</tube>
+		<position>f6</position>
+		<buffer>100 mM SPG buffer pH 8.5</buffer>
+		<precipitant>25% (w/v) PEG 1500</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-19</tube>
+		<position>f7</position>
+		<buffer>100 mM MMT buffer pH 6.5</buffer>
+		<precipitant>25% (w/v) PEG 1500</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-20</tube>
+		<position>f8</position>
+		<buffer>100 mM MMT buffer pH 9.0</buffer>
+		<precipitant>25% (w/v) PEG 1500</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-21</tube>
+		<position>f9</position>
+		<buffer>100 mM MIB buffer pH 5.0</buffer>
+		<precipitant>25% (w/v) PEG 1500</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-22</tube>
+		<position>f10</position>
+		<buffer>100 mM PCB buffer pH 7.0</buffer>
+		<precipitant>25% (w/v) PEG 1500</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-23</tube>
+		<position>f11</position>
+		<salt>2500 mM Sodium chloride</salt>
+		<buffer>100 mM Sodium acetate/ Acetic acid pH 5.5</buffer>
+		<precipitant>12% (w/v) PEG 1500, 1.5% (v/v) MPD</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-24</tube>
+		<position>f12</position>
+		<precipitant>2400 mM Sodium malonate dibasic</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-25</tube>
+		<position>g1</position>
+		<salt>150 mM Potassium bromide</salt>
+		<precipitant>30% (w/v) PEG 2000 MME</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-26</tube>
+		<position>g2</position>
+		<salt>200 mM Ammonium sulfate</salt>
+		<buffer>100 mM Sodium acetate/ Acetic acid pH 5.5</buffer>
+		<precipitant>10% (w/v) PEG 2000 MME</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-27</tube>
+		<position>g3</position>
+		<salt>200 mM Trimethylamine n-oxide</salt>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.5</buffer>
+		<precipitant>20% (w/v) PEG 2000 MME</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-28</tube>
+		<position>g4</position>
+		<salt>200 mM Sodium fluoride</salt>
+		<buffer>100 mM Bis Tris Propane/ Hydrochloric acid pH 6.5</buffer>
+		<precipitant>20% (w/v) PEG 3350</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-29</tube>
+		<position>g5</position>
+		<salt>200 mM Sodium citrate tribasic</salt>
+		<buffer>100 mM Sodium citrate/ Citric acid pH 4.0</buffer>
+		<precipitant>20% (w/v) PEG 3350</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-30</tube>
+		<position>g6</position>
+		<salt>200 mM Sodium malonate dibasic</salt>
+		<buffer>100 mM Bis Tris Propane/ Hydrochloric acid pH 8.5</buffer>
+		<precipitant>20% (w/v) PEG 3350</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-31</tube>
+		<position>g7</position>
+		<salt>20 mM Magnesium chloride</salt>
+		<buffer>100 mM HEPES/ Sodium hydroxide pH 7.0</buffer>
+		<precipitant>20% (w/v) Polyacrylic acid 5100</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-32</tube>
+		<position>g8</position>
+		<precipitant>2100 mM DL Malic acid pH 7.0</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-33</tube>
+		<position>g9</position>
+		<salt>800 mM Sodium phosphate monobasic</salt>
+		<buffer>100 mM HEPES/ Sodium hydroxide pH 7.5</buffer>
+		<precipitant>800 mM Potassium phosphate dibasic</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-34</tube>
+		<position>g10</position>
+		<salt>200 mM Ammonium chloride</salt>
+		<buffer>100 mM MES/ Sodium hydroxide pH 6.0</buffer>
+		<precipitant>20% (w/v) PEG 6000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-35</tube>
+		<position>g11</position>
+		<salt>200 mM Sodium chloride</salt>
+		<buffer>100 mM HEPES/ Sodium hydroxide pH 7.0</buffer>
+		<precipitant>20% (w/v) PEG 6000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-36</tube>
+		<position>g12</position>
+		<salt>200 mM Lithium chloride</salt>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.0</buffer>
+		<precipitant>20% (w/v) PEG 6000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-37</tube>
+		<position>h1</position>
+		<salt>100 mM Cobalt chloride</salt>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.5</buffer>
+		<precipitant>20% (w/v) Polyvinylpyrrolidone K15</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-38</tube>
+		<position>h2</position>
+		<salt>200 mM Magnesium chloride</salt>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.5</buffer>
+		<precipitant>50% (v/v) Ethylene glycol</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-39</tube>
+		<position>h3</position>
+		<buffer>100 mM Imidazole/ Hydrochloric acid pH 6.5</buffer>
+		<precipitant>20% (w/v) PEG 8000, 3% (v/v) MPD</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-40</tube>
+		<position>h4</position>
+		<salt>100 mM Magnesium chloride</salt>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.5</buffer>
+		<precipitant>20% (w/v) PEG 8000, 20% (v/v) PEG 400</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-41</tube>
+		<position>h5</position>
+		<salt>200 mM Ammonium sulfate</salt>
+		<buffer>100 mM HEPES/ Sodium hydroxide pH 7.5</buffer>
+		<precipitant>20% (w/v) PEG 8000, 10% (v/v) 2-Propanol</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-42</tube>
+		<position>h6</position>
+		<buffer>100 mM Sodium acetate/ Acetic acid pH 4.5</buffer>
+		<precipitant>30% (v/v) MPD, 25% (w/v) PEG 1500</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-43</tube>
+		<position>h7</position>
+		<salt>200 mM Ammonium sulfate</salt>
+		<buffer>100 mM Imidazole/ Hydrochloric acid pH 6.5</buffer>
+		<precipitant>30% (v/v) MPD, 10% (w/v) PEG 3350</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-44</tube>
+		<position>h8</position>
+		<salt>500 mM Sodium chloride</salt>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.5</buffer>
+		<precipitant>30% (v/v) MPD, 8% (w/v) PEG 8000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-45</tube>
+		<position>h9</position>
+		<buffer>100 mM Imidazole/ Hydrochloric acid pH 6.5</buffer>
+		<precipitant>40% (v/v) 2-Propanol, 15% (w/v) PEG 8000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-46</tube>
+		<position>h10</position>
+		<buffer>100 mM Tris base/ Hydrochloric acid pH 8.5</buffer>
+		<precipitant>30% (v/v) 2-Propanol, 30% (w/v) PEG 3350</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-47</tube>
+		<position>h11</position>
+		<salt>100 mM Ammonium acetate</salt>
+		<buffer>100 mM Bis Tris/ Hydrochloric acid pH 5.5</buffer>
+		<precipitant>17% (w/v) PEG 10,000</precipitant>
+	</condition>
+	<condition>
+		<tube>wiz4-48</tube>
+		<position>h12</position>
+		<buffer>100 mM HEPES/ Sodium hydroxide pH 7.0</buffer>
+		<precipitant>15% (w/v) PEG 20,000</precipitant>
+	</condition>
+</screen-condition>

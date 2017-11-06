@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<screen-condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<condition>
+		<tube>natrix-1</tube>
+		<position>a1</position>
+		<salt>0.01 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M MES monohydrate pH 5.6</buffer>
+		<precipitant>1.8 M Lithium sulfate monohydrate</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-2</tube>
+		<position>a2</position>
+		<salt>0.01 M Magnesium acetate tetrahydrate</salt>
+		<buffer>0.05 M MES monohydrate pH 5.6</buffer>
+		<precipitant>2.5 M Ammonium sulfate</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-3</tube>
+		<position>a3</position>
+		<salt>0.1 M Magnesium acetate tetrahydrate</salt>
+		<buffer>0.05 M MES monohydrate pH 5.6</buffer>
+		<precipitant>20% v/v (+/-)-2-Methyl-2,4-pentanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-4</tube>
+		<position>a4</position>
+		<salt>0.2 M Potassium chloride, 0.01 M Magnesium sulfate heptahydrate</salt>
+		<buffer>0.05 M MES monohydrate pH 5.6</buffer>
+		<precipitant>10% v/v Polyethylene glycol 400</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-5</tube>
+		<position>a5</position>
+		<salt>0.2 M Potassium chloride, 0.01 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M MES monohydrate pH 5.6</buffer>
+		<precipitant>5% w/v Polyethylene glycol 8,000</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-6</tube>
+		<position>a6</position>
+		<salt>0.1 M Ammonium sulfate, 0.01 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M MES monohydrate pH 5.6</buffer>
+		<precipitant>20% w/v Polyethylene glycol 8,000</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-7</tube>
+		<position>a7</position>
+		<salt>0.02 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M MES monohydrate pH 6.0</buffer>
+		<precipitant>15% v/v 2-Propanol</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-8</tube>
+		<position>a8</position>
+		<salt>0.1 M Ammonium acetate, 0.005 M Magnesium sulfate heptahydrate</salt>
+		<buffer>0.05 M MES monohydrate pH 6.0</buffer>
+		<precipitant>0.6 M Sodium chloride</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-9</tube>
+		<position>a9</position>
+		<salt>0.1 M Potassium chloride, 0.01 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M MES monohydrate pH 6.0</buffer>
+		<precipitant>10% v/v Polyethylene glycol 400</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-10</tube>
+		<position>a10</position>
+		<salt>0.005 M Magnesium sulfate heptahydrate</salt>
+		<buffer>0.05 M MES monohydrate pH 6.0</buffer>
+		<precipitant>5% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-11</tube>
+		<position>a11</position>
+		<salt>0.01 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.0</buffer>
+		<precipitant>1.0 M Lithium sulfate monohydrate</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-12</tube>
+		<position>a12</position>
+		<salt>0.01 M Magnesium sulfate heptahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.0</buffer>
+		<precipitant>1.8 M Lithium sulfate monohydrate</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-13</tube>
+		<position>b1</position>
+		<salt>0.015 M Magnesium acetate tetrahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.0</buffer>
+		<precipitant>1.7 M Ammonium sulfate</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-14</tube>
+		<position>b2</position>
+		<salt>0.1 M Potassium chloride, 0.025 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.0</buffer>
+		<precipitant>15% v/v 2-Propanol</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-15</tube>
+		<position>b3</position>
+		<salt>0.04 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.0</buffer>
+		<precipitant>5% v/v (+/-)-2-Methyl-2,4-pentanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-16</tube>
+		<position>b4</position>
+		<salt>0.04 M Magnesium acetate tetrahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.0</buffer>
+		<precipitant>30% v/v (+/-)-2-Methyl-2,4-pentanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-17</tube>
+		<position>b5</position>
+		<salt>0.2 M Potassium chloride, 0.01 M Calcium chloride dihydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.0</buffer>
+		<precipitant>10% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-18</tube>
+		<position>b6</position>
+		<salt>0.01 M Magnesium acetate tetrahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.5</buffer>
+		<precipitant>1.3 M Lithium sulfate monohydrate</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-19</tube>
+		<position>b7</position>
+		<salt>0.01 M Magnesium sulfate heptahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.5</buffer>
+		<precipitant>2.0 M Ammonium sulfate</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-20</tube>
+		<position>b8</position>
+		<salt>0.1 M Ammonium acetate, 0.015 M Magnesium acetate tetrahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.5</buffer>
+		<precipitant>10% v/v 2-Propanol</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-21</tube>
+		<position>b9</position>
+		<salt>0.2 M Potassium chloride, 0.005 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.5</buffer>
+		<precipitant>0.9 M 1,6-Hexanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-22</tube>
+		<position>b10</position>
+		<salt>0.08 M Magnesium acetate tetrahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.5</buffer>
+		<precipitant>15% v/v Polyethylene glycol 400</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-23</tube>
+		<position>b11</position>
+		<salt>0.2 M Potassium chloride, 0.01 Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.5</buffer>
+		<precipitant>10% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-24</tube>
+		<position>b12</position>
+		<salt>0.2 M Ammonium acetate, 0.01 M Calcium chloride dihydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.5</buffer>
+		<precipitant>10% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-25</tube>
+		<position>c1</position>
+		<salt>0.08 M Magnesium acetate tetrahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.5</buffer>
+		<precipitant>30% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-26</tube>
+		<position>c2</position>
+		<salt>0.2 M Potassium chloride, 0.1 M Magnesium acetate tetrahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.5</buffer>
+		<precipitant>10% w/v Polyethylene glycol 8,000</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-27</tube>
+		<position>c3</position>
+		<salt>0.2 M Ammonium acetate, 0.01 M Magnesium acetate tetrahydrate</salt>
+		<buffer>0.05 M Sodium cacodylate trihydrate pH 6.5</buffer>
+		<precipitant>30% w/v Polyethylene glycol 8,000</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-28</tube>
+		<position>c4</position>
+		<salt>0.05 M Magnesium sulfate hydrate</salt>
+		<buffer>0.05 M HEPES sodium pH 7.0</buffer>
+		<precipitant>1.6 M Lithium sulfate monohydrate</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-29</tube>
+		<position>c5</position>
+		<salt>0.01 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M HEPES sodium pH 7.0</buffer>
+		<precipitant>4.0 M Lithium chloride</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-30</tube>
+		<position>c6</position>
+		<salt>0.01 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M HEPES sodium pH 7.0</buffer>
+		<precipitant>1.6 M Ammonium sulfate</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-31</tube>
+		<position>c7</position>
+		<salt>0.005 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M HEPES sodium pH 7.0</buffer>
+		<precipitant>25% v/v Polyethylene glycol monomethyl ether 550</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-32</tube>
+		<position>c8</position>
+		<salt>0.2 M Potassium chloride, 0.01 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M HEPES sodium pH 7.0</buffer>
+		<precipitant>1.7 M 1,6-Hexanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-33</tube>
+		<position>c9</position>
+		<salt>0.2 M Ammonium chloride, 0.01 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M HEPES sodium pH 7.0</buffer>
+		<precipitant>2.5 M 1,6-Hexanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-34</tube>
+		<position>c10</position>
+		<salt>0.1 M Potassium chloride, 0.005 M Magnesium sulfate hydrate</salt>
+		<buffer>0.05 M HEPES sodium pH 7.0</buffer>
+		<precipitant>15% v/v (+/-)-2-Methyl-2,4-pentanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-35</tube>
+		<position>c11</position>
+		<salt>0.1 M Potassium chloride, 0.01 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M HEPES sodium pH 7.0</buffer>
+		<precipitant>5% v/v Polyethylene glycol 400</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-36</tube>
+		<position>c12</position>
+		<salt>0.1 M Potassium chloride, 0.01 M Calcium chloride dihydrate</salt>
+		<buffer>0.05 M HEPES sodium pH 7.0</buffer>
+		<precipitant>10% v/v Polyethylene glycol 400</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-37</tube>
+		<position>d1</position>
+		<salt>0.2 M Potassium chloride, 0.025 M Magnesium sulfate hydrate</salt>
+		<buffer>0.05 M HEPES sodium pH 7.0</buffer>
+		<precipitant>20% v/v Polyethylene glycol 200</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-38</tube>
+		<position>d2</position>
+		<salt>0.2 M Ammonium acetate, 0.15 M Magnesium acetate tetrahydrate</salt>
+		<buffer>0.05 M HEPES sodium pH 7.0</buffer>
+		<precipitant>5% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-39</tube>
+		<position>d3</position>
+		<salt>0.1 M Ammonium acetate, 0.02 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M HEPES sodium pH 7.0</buffer>
+		<precipitant>5% w/v Polyethylene glycol 8,000</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-40</tube>
+		<position>d4</position>
+		<salt>0.01 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M TRIS hydrochloride pH 7.5</buffer>
+		<precipitant>1.6 M Ammonium sulfate</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-41</tube>
+		<position>d5</position>
+		<salt>0.1 M Potassium chloride, 0.015 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M TRIS hydrochloride pH 7.5</buffer>
+		<precipitant>10% v/v Polyethylene glycol monomethyl ether 550</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-42</tube>
+		<position>d6</position>
+		<salt>0.01 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M TRIS hydrochloride pH 7.5</buffer>
+		<precipitant>5% v/v 2-Propanol</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-43</tube>
+		<position>d7</position>
+		<salt>0.05 M Ammonium acetate, 0.01 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M TRIS hydrochloride pH 7.5</buffer>
+		<precipitant>10% v/v (+/-)-2-Methyl-2,4-pentanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-44</tube>
+		<position>d8</position>
+		<salt>0.2 M Potassium chloride, 0.05 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M TRIS hydrochloride pH 7.5</buffer>
+		<precipitant>10% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-45</tube>
+		<position>d9</position>
+		<salt>0.025 M Magnesium sulfate hydrate</salt>
+		<buffer>0.05 M TRIS hydrochloride pH 8.5</buffer>
+		<precipitant>1.8 M Ammonium sulfate</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-46</tube>
+		<position>d10</position>
+		<salt>0.005 M Magnesium sulfate hydrate</salt>
+		<buffer>0.05 M TRIS hydrochloride pH 8.5</buffer>
+		<precipitant>2.9 M 1,6-Hexanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-47</tube>
+		<position>d11</position>
+		<salt>0.1 M Potassium chloride, 0.01 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.05 M TRIS hydrochloride pH 8.5</buffer>
+		<precipitant>30% v/v Polyethylene glycol 400</precipitant>
+	</condition>
+	<condition>
+		<tube>natrix-48</tube>
+		<position>d12</position>
+		<salt>0.2 M Ammonium chloride, 0.01 M Calcium chloride dihydrate</salt>
+		<buffer>0.05 M TRIS hydrochloride pH 8.5</buffer>
+		<precipitant>30% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-1</tube>
+		<position>e1</position>
+		<salt>0.1 M Sodium chloride</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+		<precipitant>12% v/v (+/-)-2-Methyl-2,4-pentanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-2</tube>
+		<position>e2</position>
+		<salt>0.1 M Zinc acetate dihydrate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+		<precipitant>12% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-3</tube>
+		<position>e3</position>
+		<salt>0.2 M Ammonium sulfate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+		<precipitant>10% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-4</tube>
+		<position>e4</position>
+		<salt>0.1 M Sodium chloride</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+		<precipitant>12% v/v 2-Propanol</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-5</tube>
+		<position>e5</position>
+		<salt>None</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+		<precipitant>12% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-6</tube>
+		<position>e6</position>
+		<salt>None</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+		<precipitant>1.0 M Ammonium sulfate</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-7</tube>
+		<position>e7</position>
+		<salt>None</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+		<precipitant>1.0 M Magnesium sulfate heptahydrate</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-8</tube>
+		<position>e8</position>
+		<salt>0.1 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+		<precipitant>18% v/v Polyethylene glycol 400</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-9</tube>
+		<position>e9</position>
+		<salt>0.1 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+		<precipitant>1.0 M Ammonium phosphate monobasic</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-10</tube>
+		<position>e10</position>
+		<salt>0.1 M Sodium chloride</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+		<precipitant>12% w/v Polyethylene glycol 6,000</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-11</tube>
+		<position>e11</position>
+		<salt>0.1 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.1 M Sodium acetate trihydrate pH 4.6</buffer>
+		<precipitant>12% w/v Polyethylene glycol 6,000</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-12</tube>
+		<position>e12</position>
+		<salt>0.1 M Sodium chloride</salt>
+		<buffer>0.1 M Sodium citrate tribasic dihydrate pH 5.6</buffer>
+		<precipitant>18% v/v Polyethylene glycol 400</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-13</tube>
+		<position>f1</position>
+		<salt>0.1 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M Sodium citrate tribasic dihydrate pH 5.6</buffer>
+		<precipitant>12% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-14</tube>
+		<position>f2</position>
+		<salt>0.1 M Sodium citrate tribasic dihydrate</salt>
+		<buffer>0.1 M Sodium citrate tribasic dihydrate pH 5.6</buffer>
+		<precipitant>10% v/v 2-Propanol</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-15</tube>
+		<position>f3</position>
+		<salt>0.1 M Sodium chloride</salt>
+		<buffer>0.1 M Sodium citrate tribasic dihydrate pH 5.6</buffer>
+		<precipitant>12% v/v (+/-)-2-Methyl-2,4-pentanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-16</tube>
+		<position>f4</position>
+		<salt>None</salt>
+		<buffer>0.1 M Sodium citrate tribasic dihydrate pH 5.6</buffer>
+		<precipitant>1.0 M Magnesium sulfate heptahydrate</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-17</tube>
+		<position>f5</position>
+		<salt>0.1 M Sodium chloride</salt>
+		<buffer>0.1 M Sodium citrate tribasic dihydrate pH 5.6</buffer>
+		<precipitant>12% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-18</tube>
+		<position>f6</position>
+		<salt>0.1 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M Sodium citrate tribasic dihydrate pH 5.6</buffer>
+		<precipitant>12% w/v Polyethylene glycol 6,000</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-19</tube>
+		<position>f7</position>
+		<salt>0.1 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.1 M Sodium citrate tribasic dihydrate pH 5.6</buffer>
+		<precipitant>4% v/v (+/-)-2-Methyl-2,4-pentanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-20</tube>
+		<position>f8</position>
+		<salt>None</salt>
+		<buffer>0.1 M Sodium citrate tribasic dihydrate pH 5.6</buffer>
+		<precipitant>0.1 M Sodium chloride</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-21</tube>
+		<position>f9</position>
+		<salt>0.1 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M Sodium citrate tribasic dihydrate pH 5.6</buffer>
+		<precipitant>4% v/v Polyethylene glycol 400</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-22</tube>
+		<position>f10</position>
+		<salt>None</salt>
+		<buffer>0.1 M ADA pH 6.5</buffer>
+		<precipitant>1.0 M Ammonium sulfate</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-23</tube>
+		<position>f11</position>
+		<salt>0.1 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M ADA pH 6.5</buffer>
+		<precipitant>12% w/v Polyethylene glycol 4,000, 2% v/v 2-Propanol</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-24</tube>
+		<position>f12</position>
+		<salt>None</salt>
+		<buffer>0.1 M ADA pH 6.5</buffer>
+		<precipitant>1.0 M Ammonium phosphate dibasic</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-25</tube>
+		<position>g1</position>
+		<salt>0.1 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.1 M ADA pH 6.5</buffer>
+		<precipitant>12% w/v Polyethylene glycol 6,000</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-26</tube>
+		<position>g2</position>
+		<salt>None</salt>
+		<buffer>0.1 M ADA pH 6.5</buffer>
+		<precipitant>12% v/v (+/-)-2-Methyl-2,4-pentanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-27</tube>
+		<position>g3</position>
+		<salt>0.1 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M ADA pH 6.5</buffer>
+		<precipitant>1.0 M Magnesium sulfate hydrate</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-28</tube>
+		<position>g4</position>
+		<salt>0.3 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M ADA pH 6.5</buffer>
+		<precipitant>4% v/v Polyethylene glycol 400</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-29</tube>
+		<position>g5</position>
+		<salt>0.1 M Ammonium sulfate</salt>
+		<buffer>0.1 M HEPES sodium pH 7.5</buffer>
+		<precipitant>0.5 M Sodium phosphate dibasic dihydrate, 0.5 M Potassium phosphate dibasic</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-30</tube>
+		<position>g6</position>
+		<salt>0.1 M Sodium chloride</salt>
+		<buffer>0.1 M HEPES sodium pH 7.5</buffer>
+		<precipitant>10% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-31</tube>
+		<position>g7</position>
+		<salt>0.1 M Magnesium chloride hexahydrate</salt>
+		<buffer>0.1 M HEPES sodium pH 7.5</buffer>
+		<precipitant>18% v/v Polyethylene glycol 400</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-32</tube>
+		<position>g8</position>
+		<salt>None</salt>
+		<buffer>0.1 M HEPES sodium pH 7.5</buffer>
+		<precipitant>1.0 M Potassium sodium tartrate tetrahydrate</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-33</tube>
+		<position>g9</position>
+		<salt>0.1 M Ammonium sulfate</salt>
+		<buffer>0.1 M HEPES sodium pH 7.5</buffer>
+		<precipitant>18% v/v Polyethylene glycol 400</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-34</tube>
+		<position>g10</position>
+		<salt>0.1 M Ammonium sulfate</salt>
+		<buffer>0.1 M HEPES sodium pH 7.5</buffer>
+		<precipitant>10% w/v Polyethylene glycol 4,000</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-35</tube>
+		<position>g11</position>
+		<salt>0.1 M Sodium citrate tribasic dihydrate</salt>
+		<buffer>0.1 M HEPES sodium pH 7.5</buffer>
+		<precipitant>12% v/v (+/-)-2-Methyl-2,4-pentanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-36</tube>
+		<position>g12</position>
+		<salt>None</salt>
+		<buffer>0.1 M HEPES sodium pH 7.5</buffer>
+		<precipitant>1.0 M Sodium citrate tribasic dihydrate</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-37</tube>
+		<position>h1</position>
+		<salt>0.6 M Magnesium sulfate hydrate</salt>
+		<buffer>0.1 M HEPES sodium pH 7.5</buffer>
+		<precipitant>4% v/v Polyethylene glycol 400</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-38</tube>
+		<position>h2</position>
+		<salt>0.6 M Magnesium sulfate hydrate</salt>
+		<buffer>0.1 M HEPES sodium pH 7.5</buffer>
+		<precipitant>4% v/v (+/-)-2-Methyl-2,4-pentanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-39</tube>
+		<position>h3</position>
+		<salt>0.1 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M HEPES sodium pH 7.5</buffer>
+		<precipitant>0.1 M Potassium sodium tartrate tetrahydrate</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-40</tube>
+		<position>h4</position>
+		<salt>0.1 M Lithium sulfate monohydrate</salt>
+		<buffer>0.1 M Tris hydrochloride pH 8.5</buffer>
+		<precipitant>12% v/v (+/-)-2-Methyl-2,4-pentanediol</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-41</tube>
+		<position>h5</position>
+		<salt>0.1 M Ammonium phosphate dibasic</salt>
+		<buffer>0.1 M Tris hydrochloride pH 8.5</buffer>
+		<precipitant>0.5 M Sodium phosphate dibasic dihydrate, 0.5 M Potassium phosphate dibasic</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-42</tube>
+		<position>h6</position>
+		<salt>None</salt>
+		<buffer>0.1 M Tris hydrochloride pH 8.5</buffer>
+		<precipitant>0.1 M Sodium acetate trihydrate</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-43</tube>
+		<position>h7</position>
+		<salt>None</salt>
+		<buffer>0.1 M Tris hydrochloride pH 8.5</buffer>
+		<precipitant>0.1 M Sodium chloride</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-44</tube>
+		<position>h8</position>
+		<salt>0.1 M Ammonium phosphate dibasic</salt>
+		<buffer>0.1 M Tris hydrochloride pH 8.5</buffer>
+		<precipitant>12% w/v Polyethylene glycol 6,000</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-45</tube>
+		<position>h9</position>
+		<salt>0.1 M Potassium sodium tartrate tetrahydrate</salt>
+		<buffer>0.1 M Tris hydrochloride pH 8.5</buffer>
+		<precipitant>0.4 M Magnesium sulfate hydrate</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-46</tube>
+		<position>h10</position>
+		<salt>None</salt>
+		<buffer>0.1 M Tris hydrochloride pH 8.5</buffer>
+		<precipitant>0.2 M Lithium sulfate monohydrate</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-47</tube>
+		<position>h11</position>
+		<salt>None</salt>
+		<buffer>0.1 M Tris hydrochloride pH 8.5</buffer>
+		<precipitant>0.5 M Ammonium sulfate</precipitant>
+	</condition>
+	<condition>
+		<tube>membfac-48</tube>
+		<position>h12</position>
+		<salt>0.1 M Sodium citrate tribasic dihydrate</salt>
+		<buffer>0.1 M Tris hydrochloride pH 8.5</buffer>
+		<precipitant>5% v/v Polyethylene glycol 400</precipitant>
+	</condition>
+</screen-condition>

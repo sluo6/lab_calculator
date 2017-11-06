@@ -77,7 +77,7 @@ Lab Calculator for Dummies!
             <table style="padding:0px 0px 15px 0px">
                 <tr><td>
                         <div style ="color: #FF0000; font-size: 15px; font-weight: bold;"><?php echo $error?></div><br>
-                        <div style ="color: lawngreen; font-size:18px; font-weight:bold;">Your condition is:<br>
+                        <div style ="color: lawngreen; font-size:18px; font-weight:bold;">Your condition is:<br><br>
                             <?php if(($_POST['action'])=="Submit") echo $condition_parsed?></div>
                     </td>
                 </tr>
