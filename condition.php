@@ -2,13 +2,13 @@
     $condition = "";
     $error = "";
 }
-
+/* If using mySQL, the following codde will work.
 define('DB_HOST', "localhost");
 define('DB_PORT', "3307");
 define('DB_USER', "dummies");
 define('DB_PASS', "123");
 define('DB_SCHEMA', "screening_condition");
-/*
+
 $db = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_SCHEMA, DB_PORT);
 
 if (mysqli_connect_errno()){
@@ -36,7 +36,23 @@ if(isset($_POST['action'])) {
     }
 }
 */
-
+if(($_POST['action'])=="Submit") {
+    if(!isset($_POST['position'])){$error="Please choose your well position!";}
+    else {
+        $filename = "db/" . "{$_POST['block']}" . ".xml";
+        $xml = simplexml_load_file("$filename") or die("Error: Cannot retrieve condition info.");
+        foreach ($xml->children() as $condition) {
+            if ($condition->position != $_POST['position']) {
+                continue;
+            } else {
+                $condition_parsed = strtoupper($condition->position) . "; " . "Tube " . $condition->tube . ";<br>" .
+                    $condition->salt . ";<br>" .
+                    $condition->buffer . ";<br>" .
+                    $condition->precipitant . ".";
+            }
+        }
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -62,7 +78,7 @@ Lab Calculator for Dummies!
                 <tr><td>
                         <div style ="color: #FF0000; font-size: 15px; font-weight: bold;"><?php echo $error?></div><br>
                         <div style ="color: lawngreen; font-size:18px; font-weight:bold;">Your condition is:<br>
-                            <?php if(isset($_POST['action'])) echo $condition?></div>
+                            <?php if(($_POST['action'])=="Submit") echo $condition_parsed?></div>
                     </td>
                 </tr>
                 <tr>

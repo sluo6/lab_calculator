@@ -10,6 +10,12 @@ handlers:
   static_files: favicon.ico
   upload: favicon.ico
 
+- url: /(.*\.xml)
+  mime_type: application/xml
+  static_files: db/\1
+  upload: db/(.*\.xml)
+  expiration: "1h"
+
 - url: /header.php
   script: header.php
 
