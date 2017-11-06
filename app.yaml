@@ -6,6 +6,10 @@ handlers:
 - url: /stylesheet
   static_dir: stylesheet
 
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: favicon.ico
+
 - url: /header.php
   script: header.php
 

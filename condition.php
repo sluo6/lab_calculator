@@ -51,6 +51,7 @@ Lab Calculator for Dummies!
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link href="stylesheet/main.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
 <div id="header-wrapper">
