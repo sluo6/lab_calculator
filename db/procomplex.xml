@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<screen-condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<condition>
+		<tube>1</tube>
+		<position>a1</position>
+		<precipitant>25% (w/v) PEG 350 MME</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>2</tube>
+		<position>a2</position>
+		<salt>0.1 M Calcium acetate</salt>
+		<precipitant>15% (v/v) PEG 400</precipitant>
+		<buffer>0.1 M MES pH 6</buffer>
+	</condition>
+	<condition>
+		<tube>3</tube>
+		<position>a3</position>
+		<salt>0.1 M Lithium chloride</salt>
+		<precipitant>20% (v/v) PEG 400</precipitant>
+		<buffer>0.1 M HEPES pH 7.5</buffer>
+	</condition>
+	<condition>
+		<tube>4</tube>
+		<position>a4</position>
+		<precipitant>25% (v/v) PEG 400</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>5</tube>
+		<position>a5</position>
+		<precipitant>15% (w/v) PEG 550 MME</precipitant>
+		<buffer>0.1 M MES pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>6</tube>
+		<position>a6</position>
+		<salt>0.2 M Sodium chloride</salt>
+		<precipitant>25% (w/v) PEG 1000</precipitant>
+		<buffer>0.1 M Na/K phosphate pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>7</tube>
+		<position>a7</position>
+		<salt>0.1 M Ammonium sulfate</salt>
+		<precipitant>20% (w/v) PEG 1500</precipitant>
+		<buffer>0.1 M Tris pH 7.5</buffer>
+	</condition>
+	<condition>
+		<tube>8</tube>
+		<position>a8</position>
+		<salt>0.2 M Ammonium sulfate</salt>
+		<precipitant>10% (w/v) PEG 2000 MME</precipitant>
+		<buffer>0.1 M Sodium acetate pH 5.5</buffer>
+	</condition>
+	<condition>
+		<tube>9</tube>
+		<position>a9</position>
+		<salt>0.2 M Sodium chloride</salt>
+		<precipitant>20% (w/v) PEG 2000 MME</precipitant>
+		<buffer>0.1 M MES pH 6</buffer>
+	</condition>
+	<condition>
+		<tube>10</tube>
+		<position>a10</position>
+		<salt>0.1 M Potassium chloride</salt>
+		<precipitant>15% (w/v) PEG 2000 MME</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>11</tube>
+		<position>a11</position>
+		<precipitant>25% (w/v) PEG 2000 MME</precipitant>
+		<buffer>0.1 M HEPES pH 7.5</buffer>
+	</condition>
+	<condition>
+		<tube>12</tube>
+		<position>a12</position>
+		<salt>0.2 M Sodium acetate</salt>
+		<precipitant>5% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Sodium citrate pH 5.5</buffer>
+	</condition>
+	<condition>
+		<tube>13</tube>
+		<position>b1</position>
+		<salt>0.2 M Lithium sulfate</salt>
+		<precipitant>5% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Tris pH 7.5</buffer>
+	</condition>
+	<condition>
+		<tube>14</tube>
+		<position>b2</position>
+		<salt>0.1 M Calcium acetate</salt>
+		<precipitant>10% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Sodium acetate pH 4.5</buffer>
+	</condition>
+	<condition>
+		<tube>15</tube>
+		<position>b3</position>
+		<salt>0.2 M Sodium acetate</salt>
+		<precipitant>10% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Sodium citrate pH 5.5</buffer>
+	</condition>
+	<condition>
+		<tube>16</tube>
+		<position>b4</position>
+		<salt>0.2 M Sodium chloride</salt>
+		<precipitant>10% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M MES pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>17</tube>
+		<position>b5</position>
+		<salt>0.1 M Magnesium chloride</salt>
+		<precipitant>10% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M HEPES pH 7.5</buffer>
+	</condition>
+	<condition>
+		<tube>18</tube>
+		<position>b6</position>
+		<precipitant>10% (w/v) PEG 4000, 10% (v/v) Isopropanol</precipitant>
+		<buffer>0.1 M HEPES pH 7</buffer>
+	</condition>
+	<condition>
+		<tube>19</tube>
+		<position>b7</position>
+		<salt>0.2 M Ammonium acetate</salt>
+		<precipitant>15% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Sodium acetate pH 4</buffer>
+	</condition>
+	<condition>
+		<tube>20</tube>
+		<position>b8</position>
+		<salt>0.1 M Magnesium chloride</salt>
+		<precipitant>15% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Sodium citrate pH 5 </buffer>
+	</condition>
+	<condition>
+		<tube>21</tube>
+		<position>b9</position>
+		<precipitant>15% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Sodium cacodylate pH 6</buffer>
+	</condition>
+	<condition>
+		<tube>22</tube>
+		<position>b10</position>
+		<salt>0.15 M Ammonium sulfate</salt>
+		<precipitant>15% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M MES pH 6</buffer>
+	</condition>
+	<condition>
+		<tube>23</tube>
+		<position>b11</position>
+		<precipitant>15% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M HEPES pH 7</buffer>
+	</condition>
+	<condition>
+		<tube>24</tube>
+		<position>b12</position>
+		<salt>0.1 M Magnesium chloride</salt>
+		<precipitant>15% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M HEPES pH 7</buffer>
+	</condition>
+	<condition>
+		<tube>25</tube>
+		<position>c1</position>
+		<salt>0.15 M Ammonium sulfate</salt>
+		<precipitant>20% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>26</tube>
+		<position>c2</position>
+		<precipitant>20% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Sodium citrate pH 4.5</buffer>
+	</condition>
+	<condition>
+		<tube>27</tube>
+		<position>c3</position>
+		<salt>0.2 M Ammonium acetate</salt>
+		<precipitant>20% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Sodium acetate pH 5</buffer>
+	</condition>
+	<condition>
+		<tube>28</tube>
+		<position>c4</position>
+		<salt>0.2 M Lithium sulfate</salt>
+		<precipitant>20% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M MES pH 6</buffer>
+	</condition>
+	<condition>
+		<tube>29</tube>
+		<position>c5</position>
+		<precipitant>20% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>30</tube>
+		<position>c6</position>
+		<salt>0.15 M Ammonium sulfate</salt>
+		<precipitant>20% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M HEPES pH 7</buffer>
+	</condition>
+	<condition>
+		<tube>31</tube>
+		<position>c7</position>
+		<precipitant>20% (w/v) PEG 4000, 20% (v/v) Isopropanol</precipitant>
+		<buffer>0.1 M Sodium citrate pH 5.6</buffer>
+	</condition>
+	<condition>
+		<tube>32</tube>
+		<position>c8</position>
+		<salt>0.2 M Sodium chloride</salt>
+		<precipitant>20% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>33</tube>
+		<position>c9</position>
+		<precipitant>25% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Sodium cacodylate pH 5.5</buffer>
+	</condition>
+	<condition>
+		<tube>34</tube>
+		<position>c10</position>
+		<salt>0.15 M Ammonium sulfate</salt>
+		<precipitant>25% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M MES pH 5.5</buffer>
+	</condition>
+	<condition>
+		<tube>35</tube>
+		<position>c11</position>
+		<precipitant>25% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Sodium cacodylate pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>36</tube>
+		<position>c12</position>
+		<salt>0.2 M Potassium iodide</salt>
+		<precipitant>25% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M MES pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>37</tube>
+		<position>d1</position>
+		<salt>0.2 M Sodium chloride</salt>
+		<precipitant>25% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M HEPES pH 7.5</buffer>
+	</condition>
+	<condition>
+		<tube>38</tube>
+		<position>d2</position>
+		<precipitant>10% (w/v) PEG 5000 MME, 12% (v/v) 1-propanol</precipitant>
+		<buffer>0.1 M MES pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>39</tube>
+		<position>d3</position>
+		<salt>0.1 M Potassium chloride</salt>
+		<precipitant>15% (w/v) PEG 5000 MME</precipitant>
+		<buffer>0.1 M HEPES pH 7</buffer>
+	</condition>
+	<condition>
+		<tube>40</tube>
+		<position>d4</position>
+		<salt>0.2 M Ammonium sulfate</salt>
+		<precipitant>20% (w/v) PEG 5000 MME</precipitant>
+		<buffer>0.1 M Tris pH 7.5</buffer>
+	</condition>
+	<condition>
+		<tube>41</tube>
+		<position>d5</position>
+		<salt>0.1 M Magnesium chloride</salt>
+		<precipitant>8% (w/v) PEG 6000</precipitant>
+		<buffer>0.1 M MES pH 6</buffer>
+	</condition>
+	<condition>
+		<tube>42</tube>
+		<position>d6</position>
+		<salt>0.15 M Sodium chloride</salt>
+		<precipitant>8% (w/v) PEG 6000</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>43</tube>
+		<position>d7</position>
+		<precipitant>15% (w/v) PEG 6000</precipitant>
+		<buffer>0.1 M Sodium citrate pH 5.5</buffer>
+	</condition>
+	<condition>
+		<tube>44</tube>
+		<position>d8</position>
+		<salt>0.1 M Magnesium acetate</salt>
+		<precipitant>15% (w/v) PEG 6000</precipitant>
+		<buffer>0.1 M Sodium cacodylate pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>45</tube>
+		<position>d9</position>
+		<precipitant>15% (w/v) PEG 6000, 5% (v/v) MPD</precipitant>
+		<buffer>0.1 M MES pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>46</tube>
+		<position>d10</position>
+		<salt>0.1 M Potassium chloride</salt>
+		<precipitant>15% (w/v) PEG 6000</precipitant>
+		<buffer>0.1 M HEPES pH 7.5</buffer>
+	</condition>
+	<condition>
+		<tube>47</tube>
+		<position>d11</position>
+		<precipitant>15% (w/v) PEG 6000</precipitant>
+		<buffer>0.1 M Tris pH 7.5</buffer>
+	</condition>
+	<condition>
+		<tube>48</tube>
+		<position>d12</position>
+		<precipitant>20% (w/v) PEG 6000</precipitant>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>49</tube>
+		<position>e1</position>
+		<salt>0.1 M Magnesium acetate</salt>
+		<precipitant>8% (w/v) PEG 8000</precipitant>
+		<buffer>0.1 M Sodium acetate pH 4.5</buffer>
+	</condition>
+	<condition>
+		<tube>50</tube>
+		<position>e2</position>
+		<precipitant>8% (w/v) PEG 8000</precipitant>
+		<buffer>0.1 M Sodium citrate pH 5</buffer>
+	</condition>
+	<condition>
+		<tube>51</tube>
+		<position>e3</position>
+		<salt>0.2 M Sodium chloride</salt>
+		<precipitant>8% (w/v) PEG 8000</precipitant>
+		<buffer>0.1 M Sodium cacodylate pH 6</buffer>
+	</condition>
+	<condition>
+		<tube>52</tube>
+		<position>e4</position>
+		<precipitant>8% (w/v) PEG 8000</precipitant>
+		<buffer>0.1 M HEPES pH 7</buffer>
+	</condition>
+	<condition>
+		<tube>53</tube>
+		<position>e5</position>
+		<precipitant>8% (w/v) PEG 8000</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>54</tube>
+		<position>e6</position>
+		<salt>0.1 M Calcium acetate</salt>
+		<precipitant>12% (w/v) PEG 8000</precipitant>
+		<buffer>0.1 M Sodium cacodylate pH 5.5</buffer>
+	</condition>
+	<condition>
+		<tube>55</tube>
+		<position>e7</position>
+		<precipitant>12% (w/v) PEG 8000</precipitant>
+		<buffer>0.1 M Sodium dihydrogen phosphate pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>56</tube>
+		<position>e8</position>
+		<salt>0.1 M Magnesium acetate</salt>
+		<precipitant>12% (w/v) PEG 8000</precipitant>
+		<buffer>0.1 M MOPS pH 7.5</buffer>
+	</condition>
+	<condition>
+		<tube>57</tube>
+		<position>e9</position>
+		<salt>0.2 M Sodium chloride</salt>
+		<precipitant>12% (w/v) PEG 8000</precipitant>
+		<buffer>0.1 M HEPES pH 7.5</buffer>
+	</condition>
+	<condition>
+		<tube>58</tube>
+		<position>e10</position>
+		<salt>0.2 M Ammonium sulfate</salt>
+		<precipitant>12% (w/v) PEG 8000</precipitant>
+		<buffer>0.1 M Tris pH 8.5</buffer>
+	</condition>
+	<condition>
+		<tube>59</tube>
+		<position>e11</position>
+		<precipitant>20% (w/v) PEG 8000</precipitant>
+		<buffer>0.1 M Sodium citrate pH 5</buffer>
+	</condition>
+	<condition>
+		<tube>60</tube>
+		<position>e12</position>
+		<salt>0.2 M Ammonium sulfate</salt>
+		<precipitant>20% (w/v) PEG 8000</precipitant>
+		<buffer>0.1 M MES pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>61</tube>
+		<position>f1</position>
+		<precipitant>20% (w/v) PEG 8000</precipitant>
+		<buffer>0.1 M HEPES pH 7</buffer>
+	</condition>
+	<condition>
+		<tube>62</tube>
+		<position>f2</position>
+		<salt>0.2 M Lithium chloride</salt>
+		<precipitant>20% (w/v) PEG 8000</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>63</tube>
+		<position>f3</position>
+		<salt>0.1 M Magnesium acetate</salt>
+		<precipitant>10% (w/v) PEG 10000</precipitant>
+		<buffer>0.1 M MES pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>64</tube>
+		<position>f4</position>
+		<precipitant>18% (w/v) PEG 12000</precipitant>
+		<buffer>0.1 M HEPES pH 7</buffer>
+	</condition>
+	<condition>
+		<tube>65</tube>
+		<position>f5</position>
+		<salt>0.1 M Sodium chloride</salt>
+		<precipitant>8% (w/v) PEG 20000</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>66</tube>
+		<position>f6</position>
+		<precipitant>15% (w/v) PEG 20000</precipitant>
+		<buffer>0.1 M HEPES pH 7</buffer>
+	</condition>
+	<condition>
+		<tube>67</tube>
+		<position>f7</position>
+		<precipitant>0.5 M Ammonium sulfate</precipitant>
+		<buffer>0.1 M MES pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>68</tube>
+		<position>f8</position>
+		<precipitant>1 M Ammonium sulfate</precipitant>
+		<buffer>0.1 M Sodium acetate pH 5</buffer>
+	</condition>
+	<condition>
+		<tube>69</tube>
+		<position>f9</position>
+		<precipitant>1 M Ammonium sulfate</precipitant>
+		<buffer>0.1 M MES pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>70</tube>
+		<position>f10</position>
+		<precipitant>1 M Ammonium sulfate</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>71</tube>
+		<position>f11</position>
+		<precipitant>1.5 M Ammonium sulfate</precipitant>
+		<buffer>0.1 M Sodium acetate pH 5</buffer>
+	</condition>
+	<condition>
+		<tube>72</tube>
+		<position>f12</position>
+		<precipitant>1.5 M Ammonium sulfate</precipitant>
+		<buffer>0.1 M HEPES pH 7</buffer>
+	</condition>
+	<condition>
+		<tube>73</tube>
+		<position>g1</position>
+		<precipitant>1.5 M Ammonium sulfate</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>74</tube>
+		<position>g2</position>
+		<precipitant>2 M Ammonium sulfate</precipitant>
+		<buffer>0.1 M Sodium acetate pH 5</buffer>
+	</condition>
+	<condition>
+		<tube>75</tube>
+		<position>g3</position>
+		<precipitant>2 M Ammonium sulfate</precipitant>
+		<buffer>0.1 M HEPES pH 7</buffer>
+	</condition>
+	<condition>
+		<tube>76</tube>
+		<position>g4</position>
+		<precipitant>2 M Ammonium sulfate</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>77</tube>
+		<position>g5</position>
+		<salt>1 M Potassium chloride</salt>
+		<precipitant>1 M Ammonium sulfate</precipitant>
+		<buffer>0.1 M HEPES pH 7</buffer>
+	</condition>
+	<condition>
+		<tube>78</tube>
+		<position>g6</position>
+		<precipitant>2 M Sodium formate</precipitant>
+		<buffer>0.1 M Sodium acetate pH 5</buffer>
+	</condition>
+	<condition>
+		<tube>79</tube>
+		<position>g7</position>
+		<precipitant>3 M Sodium formate</precipitant>
+		<buffer>0.1 M Tris pH 7.5</buffer>
+	</condition>
+	<condition>
+		<tube>80</tube>
+		<position>g8</position>
+		<precipitant>0.8 M Potassium/Sodium phosphate pH 7.5</precipitant>
+	</condition>
+	<condition>
+		<tube>81</tube>
+		<position>g9</position>
+		<precipitant>1.3 M Potassium/Sodium phosphate pH 7.0</precipitant>
+	</condition>
+	<condition>
+		<tube>82</tube>
+		<position>g10</position>
+		<precipitant>1.6 M Potassium/Sodium phosphate pH 6.5</precipitant>
+	</condition>
+	<condition>
+		<tube>83</tube>
+		<position>g11</position>
+		<precipitant>1 M Sodium acetate</precipitant>
+		<buffer>0.1 M HEPES pH 7.5</buffer>
+	</condition>
+	<condition>
+		<tube>84</tube>
+		<position>g12</position>
+		<precipitant>1 M Sodium citrate</precipitant>
+		<buffer>0.1 M HEPES pH 7</buffer>
+	</condition>
+	<condition>
+		<tube>85</tube>
+		<position>h1</position>
+		<precipitant>2 M Sodium chloride</precipitant>
+		<buffer>0.1 M Sodium citrate pH 6</buffer>
+	</condition>
+	<condition>
+		<tube>86</tube>
+		<position>h2</position>
+		<precipitant>1 M Lithium sulfate</precipitant>
+		<buffer>0.1 M MES pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>87</tube>
+		<position>h3</position>
+		<precipitant>1.6 M Lithium sulfate</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>88</tube>
+		<position>h4</position>
+		<precipitant>1.4 M Sodium malonate pH 6.0</precipitant>
+	</condition>
+	<condition>
+		<tube>89</tube>
+		<position>h5</position>
+		<precipitant>1.2 M Sodium/Potassium tartrate</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+	<condition>
+		<tube>90</tube>
+		<position>h6</position>
+		<precipitant>1.6 M Magnesium sulfate</precipitant>
+		<buffer>0.1 M MES pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>91</tube>
+		<position>h7</position>
+		<precipitant>15% (v/v) MPD, 2% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M Sodium acetate pH 5</buffer>
+	</condition>
+	<condition>
+		<tube>92</tube>
+		<position>h8</position>
+		<salt>0.05 M Calcium acetate</salt>
+		<precipitant>25% (v/v) MPD</precipitant>
+		<buffer>0.1 M Sodium cacodylate pH 6</buffer>
+	</condition>
+	<condition>
+		<tube>93</tube>
+		<position>h9</position>
+		<precipitant>50% (v/v) MPD</precipitant>
+		<buffer>0.1 M Imidazole pH 7</buffer>
+	</condition>
+	<condition>
+		<tube>94</tube>
+		<position>h10</position>
+		<salt>0.05 M Magnesium chloride</salt>
+		<precipitant>10% (v/v) Isopropanol, 5% (w/v) PEG 4000</precipitant>
+		<buffer>0.1 M MES pH 6.5</buffer>
+	</condition>
+	<condition>
+		<tube>95</tube>
+		<position>h11</position>
+		<salt>0.2 M Ammonium acetate</salt>
+		<precipitant>25% (v/v) Isopropanol</precipitant>
+		<buffer>0.1 M HEPES pH 7.5</buffer>
+	</condition>
+	<condition>
+		<tube>96</tube>
+		<position>h12</position>
+		<salt>0.1 M Sodium chloride</salt>
+		<precipitant>15% (v/v) Ethanol, 5% (v/v) MPD</precipitant>
+		<buffer>0.1 M Tris pH 8</buffer>
+	</condition>
+</screen-condition>

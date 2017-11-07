@@ -92,11 +92,11 @@ Lab Calculator for Dummies!
                             <option value = "index_screen" <?php if($_POST['block'] == 'index_screen') echo 'selected="true"'?>>Index</option>
                             <option value = "jcsg" <?php if($_POST['block'] == 'jcsg') echo 'selected="true"'?>>JCSG</option>
                             <option value = "morpheus" <?php if($_POST['block'] == 'morpheus') echo 'selected="true"'?>>Morpheus</option>
-                            <option value = "natrixmemb" <?php if($_POST['block'] == 'natrixmemb') echo 'selected="true"'?>>NatrixMemb</option>
-                            <option value = "procomplex" <?php if($_POST['block'] == 'procomplex') echo 'selected="true"'?>>Procomplex</option>
-                            <option value = "salt" <?php if($_POST['block'] == 'salt') echo 'selected="true"'?>>Salt</option>
-                            <option value = "wizard" <?php if($_POST['block'] == 'wizard') echo 'selected="true"'?>>Wizard</option>
-                            <option value = "wizardcryo" <?php if($_POST['block'] == 'wizardcryo') echo 'selected="true"'?>>Wizard Cryo</option>
+                            <option value = "natrixmemb" <?php if($_POST['block'] == 'natrixmemb') echo 'selected="true"'?>>Natrix-MembFac</option>
+                            <option value = "procomplex" <?php if($_POST['block'] == 'procomplex') echo 'selected="true"'?>>ProteinComplex</option>
+                            <option value = "salt" <?php if($_POST['block'] == 'salt') echo 'selected="true"'?>>SaltRx</option>
+                            <option value = "wizard" <?php if($_POST['block'] == 'wizard') echo 'selected="true"'?>>Wizard-3/4</option>
+                            <option value = "wizardcryo" <?php if($_POST['block'] == 'wizardcryo') echo 'selected="true"'?>>Wizard Cryo-1/2</option>
                         </select>
                         &nbsp;&nbsp;&nbsp;<input type="submit" name = "action" value="Submit"/>
                     </td>
