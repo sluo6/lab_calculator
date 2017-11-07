@@ -9,7 +9,7 @@
             <li><a href="condition.php" accesskey="3" title="">Conditions</a></li>
             <li><a href="LIC_primers.php" accesskey="4" title="">Primers</a></li>
             <li class='active'><a href="gibson.php" accesskey="5" title="">Gibson</a></li>
-            <li><a href="contact.php" accesskey="6" title="">Contact Us</a></li>
+            <li><a href="contact.php" accesskey="6" title="">Contact</a></li>
         </ul>
     </div>
 </div>

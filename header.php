@@ -14,7 +14,7 @@ $current_filename = urldecode($encodedStr);
                 <li <?php if($current_filename=='condition.php') echo "class='active'"; ?>><a href="condition.php" accesskey="3" title="">Conditions</a></li>
                 <li <?php if($current_filename=='LIC_primers.php') echo "class='active'"; ?>><a href="LIC_primers.php" accesskey="4" title="">Primers</a></li>
                 <li <?php if($current_filename=='gibson.php') echo "class='active'"; ?>><a href="gibson.php" accesskey="5" title="">Gibson</a></li>
-                <li <?php if($current_filename=='contact.php') echo "class='active'"; ?>><a href="contact.php" accesskey="6" title="">Contact Us</a></li>
+                <li <?php if($current_filename=='contact.php') echo "class='active'"; ?>><a href="contact.php" accesskey="6" title="">Contact</a></li>
             </ul>
         </div>
     </div>
